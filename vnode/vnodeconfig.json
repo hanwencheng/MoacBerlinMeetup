@@ -1,0 +1,7 @@
+{
+  "SCSservice": true,
+  "GrpcCfg": "localhost:50061",
+  "VnodeServiceCfg": "localhost:50062",
+  "VnodeAddress" : "",
+  "Vnodechainid" : 8666
+}

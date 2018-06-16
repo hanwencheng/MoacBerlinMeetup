@@ -1,0 +1,1724 @@
+INFO [06-09|00:26:45.523] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-09|00:26:45.523] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+INFO [06-09|00:26:45.526] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-09|00:26:45.526] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-09|00:26:45.527] 1:Initializing MoacNode protocol         versions="[63 62]" network=8666
+INFO [06-09|00:26:45.527] 1:Loaded most recent local header        number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:26:45.527] 1:Loaded most recent local full block    number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:26:45.527] 1:Loaded most recent local fast block    number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:26:45.528] 1:Loaded local transaction journal       transactions=0 dropped=0
+INFO [06-09|00:26:45.528] 1:Regenerated local transaction journal  transactions=0 accounts=0
+INFO [06-09|00:26:45.530] 1:Starting P2P networking 
+INFO [06-09|00:26:47.689] 1:UDP listener up                        self=enode://e55772c81d7aa8992b06120f00e213b1ae3670ddc199d1fafcda83a5f7f543695664badcdc2f6769f098f2fc58ae3e7b510c2d411d393c74e037788dcfc73e99@100.107.7.29:30333
+INFO [06-09|00:26:47.689] 109:RLPx listener up                     self=enode://e55772c81d7aa8992b06120f00e213b1ae3670ddc199d1fafcda83a5f7f543695664badcdc2f6769f098f2fc58ae3e7b510c2d411d393c74e037788dcfc73e99@100.107.7.29:30333
+INFO [06-09|00:26:47.690] 1:[node/node.go->Node.startIPC] 
+INFO [06-09|00:26:47.690] 137:IPC endpoint opened: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-09|00:26:47.690] 139:[rpc/inproc.go->DialInProc] 
+INFO [06-09|00:26:51.339] 137:[node/node.go->Node.startIPC call ServeCodec] 
+INFO [06-09|00:27:49.218] 322:Transaction pool price threshold updated price=18000000000
+INFO [06-09|00:27:49.218] 323:Starting mining operation 
+INFO [06-09|00:27:49.219] 323:Commit new mining work               number=1 txs=1 uncles=0 elapsed=856.386µs
+INFO [06-09|00:34:42.893] 137:[node/node.go->Node.startIPC call ServeCodec] 
+INFO [06-09|00:35:33.476] 138:Got interrupt, shutting down... 
+INFO [06-09|00:35:33.476] 1607:IPC endpoint closed: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-09|00:35:33.476] 1607:Blockchain manager stopped 
+INFO [06-09|00:35:33.476] 1607:Stopping MoacNode protocol 
+INFO [06-09|00:35:33.476] 1607:MoacNode protocol stopped 
+INFO [06-09|00:35:33.477] 1607:Transaction pool stopped 
+INFO [06-09|00:35:33.477] Database closed                          database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata
+INFO [06-09|00:35:56.748] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-09|00:35:56.748] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+INFO [06-09|00:35:56.752] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-09|00:35:56.752] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-09|00:35:56.752] 1:Initializing MoacNode protocol         versions="[63 62]" network=8666
+INFO [06-09|00:35:56.753] 1:Loaded most recent local header        number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:35:56.753] 1:Loaded most recent local full block    number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:35:56.753] 1:Loaded most recent local fast block    number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:35:56.753] 1:Loaded local transaction journal       transactions=0 dropped=0
+INFO [06-09|00:35:56.753] 1:Regenerated local transaction journal  transactions=0 accounts=0
+INFO [06-09|00:35:56.756] 1:Starting P2P networking 
+INFO [06-09|00:35:58.888] 1:UDP listener up                        self=enode://e55772c81d7aa8992b06120f00e213b1ae3670ddc199d1fafcda83a5f7f543695664badcdc2f6769f098f2fc58ae3e7b510c2d411d393c74e037788dcfc73e99@100.107.7.29:30333
+INFO [06-09|00:35:58.888] 98:RLPx listener up                      self=enode://e55772c81d7aa8992b06120f00e213b1ae3670ddc199d1fafcda83a5f7f543695664badcdc2f6769f098f2fc58ae3e7b510c2d411d393c74e037788dcfc73e99@100.107.7.29:30333
+INFO [06-09|00:35:58.889] 1:[node/node.go->Node.startIPC] 
+INFO [06-09|00:35:58.889] 126:IPC endpoint opened: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-09|00:35:58.889] 128:[rpc/inproc.go->DialInProc] 
+INFO [06-09|00:36:21.002] 126:[node/node.go->Node.startIPC call ServeCodec] 
+INFO [06-09|00:36:27.187] 191:Transaction pool price threshold updated price=18000000000
+INFO [06-09|00:36:27.187] 192:Starting mining operation 
+INFO [06-09|00:36:27.188] 192:Commit new mining work               number=1 txs=1 uncles=0 elapsed=994.594µs
+INFO [06-09|00:37:53.223] 127:Got interrupt, shutting down... 
+INFO [06-09|00:37:53.224] 411:IPC endpoint closed: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-09|00:37:53.224] 411:Blockchain manager stopped 
+INFO [06-09|00:37:53.224] 411:Stopping MoacNode protocol 
+INFO [06-09|00:37:53.224] 411:MoacNode protocol stopped 
+INFO [06-09|00:37:53.225] 411:Transaction pool stopped 
+INFO [06-09|00:37:53.225] Database closed                          database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata
+DEBUG[06-09|00:37:57.579] 1:[cmd/moac/main.go->moac] about to call makeFullNode ctx 
+DEBUG[06-09|00:37:57.579] 28:load file /Users/hanwencheng/Documents/moac/vnode/vnodeconfig.json 
+DEBUG[06-09|00:37:57.580] 1:Reloaded keystore contents             accounts=1
+DEBUG[06-09|00:37:57.581] 28:try to listen to localhost:50062 
+DEBUG[06-09|00:37:57.581] 28:listen to localhost:50062 
+DEBUG[06-09|00:37:57.589] 1:Reloaded keystore contents             accounts=1
+DEBUG[06-09|00:37:57.589] 1:Register &{<nil> 8666 fast 0 20 false 1024 128 [64 159 44 222 110 120 34 204 189 42 227 181 129 87 217 47 72 80 192 180] 0 [] 18000000000 ethash 2 3 /Users/hanwencheng/.ethash 1 2 {false transactions.rlp 1h0m0s 1 10 16 40960 64 1024 3h0m0s} {10 50 <nil>} false  false false false} 
+INFO [06-09|00:37:57.589] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-09|00:37:57.590] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+DEBUG[06-09|00:37:57.594] 1:Empty genesis info 
+DEBUG[06-09|00:37:57.594] 1:configOrDefault:0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd
+ 
+DEBUG[06-09|00:37:57.594] 1:Initialized chain configuration {ChainID: 99 Pangu: 0 Engine: ethash} 
+INFO [06-09|00:37:57.594] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-09|00:37:57.594] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-09|00:37:57.594] 1:Initializing MoacNode protocol         versions="[63 62]" network=8666
+DEBUG[06-09|00:37:57.594] 1:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-09|00:37:57.595] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.595] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-09|00:37:57.595] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:37:57.595] 1:[rlp/encode.go->makeWriter] typ.AssignableTo(bigInt) 
+INFO [06-09|00:37:57.595] 1:Loaded most recent local header        number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:37:57.595] 1:Loaded most recent local full block    number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+INFO [06-09|00:37:57.595] 1:Loaded most recent local fast block    number=0 hash=0x6b9661646439fab926ffc9bccdf3abb572d5209ae59e3390abf76aee4e2d49cd td=100000000000
+DEBUG[06-09|00:37:57.595] 1:[vnode/scsservices.go->NewScsService] 
+DEBUG[06-09|00:37:57.596] 1:Reinjecting stale transactions         count=0
+DEBUG[06-09|00:37:57.596] 1:addTxsLocked txs [] 
+DEBUG[06-09|00:37:57.596] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.604] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:37:57.604] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+INFO [06-09|00:37:57.604] 1:Loaded local transaction journal       transactions=0 dropped=0
+INFO [06-09|00:37:57.604] 1:Regenerated local transaction journal  transactions=0 accounts=0
+DEBUG[06-09|00:37:57.605] 1:[mc/network_relay] NewNetworkRelay 
+DEBUG[06-09|00:37:57.605] 1:worker.commitNewWork 
+DEBUG[06-09|00:37:57.605] 77:[mc/network_relay] setupScsServersChannels 
+DEBUG[06-09|00:37:57.605] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:37:57.605] 1:[core/types/New .go->MakeSigner:ChainId] 99 
+DEBUG[06-09|00:37:57.605] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:37:57.605] 1:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-09|00:37:57.605] 1:[core/state_transition.go->ApplyMessage] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-09|00:37:57.605] 1:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-09|00:37:57.605] 1:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-09|00:37:57.606] 1:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=7161 &evm.StateDB=0xc420272b00 
+DEBUG[06-09|00:37:57.606] 1:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-09|00:37:57.606] 1:RunPrecompiledContract 
+DEBUG[06-09|00:37:57.606] 1:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-09|00:37:57.606] 1:input c1c0e9c4 
+DEBUG[06-09|00:37:57.606] 1:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-09|00:37:57.606] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.606] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.606] 1:[consensus/ethash/consensus.go->Finalize] 
+DEBUG[06-09|00:37:57.606] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-09|00:37:57.607] 81:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-09|00:37:57.607] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-09|00:37:57.608] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:37:57.608] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:37:57.608] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-09|00:37:57.608] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-09|00:37:57.608] 1:[rlp/encode.go->makeWriter] reflect.String 
+INFO [06-09|00:37:57.608] 1:Starting P2P networking 
+DEBUG[06-09|00:37:58.566] 29:Reloaded keystore contents            accounts=1
+DEBUG[06-09|00:37:59.732] nat.go line109:Couldn't add port mapping proto=udp extport=30333 intport=30333 interface="UPNP IGDv2-IP2" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+INFO [06-09|00:37:59.738] 1:UDP listener up                        self=enode://e55772c81d7aa8992b06120f00e213b1ae3670ddc199d1fafcda83a5f7f543695664badcdc2f6769f098f2fc58ae3e7b510c2d411d393c74e037788dcfc73e99@100.107.7.29:30333
+INFO [06-09|00:37:59.738] 100:RLPx listener up                     self=enode://e55772c81d7aa8992b06120f00e213b1ae3670ddc199d1fafcda83a5f7f543695664badcdc2f6769f098f2fc58ae3e7b510c2d411d393c74e037788dcfc73e99@100.107.7.29:30333
+DEBUG[06-09|00:37:59.738] 1:InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[06-09|00:37:59.738] 1:InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *debug.HandlerT under 'debug' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *node.PublicChain3API under 'chain3' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PublicMoacAPI under 'mc' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PublicBlockChainAPI under 'mc' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PublicTransactionPoolAPI under 'mc' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PublicDebugAPI under 'debug' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PrivateDebugAPI under 'debug' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PublicAccountAPI under 'mc' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mcapi.PrivateAccountAPI under 'personal' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mc.PublicMoacAPI under 'mc' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mc.PublicMinerAPI under 'mc' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *downloader.PublicDownloaderAPI under 'mc' 
+DEBUG[06-09|00:37:59.739] 1:InProc registered *mc.PrivateMinerAPI under 'miner' 
+DEBUG[06-09|00:37:59.740] 1:InProc registered *filters.PublicFilterAPI under 'mc' 
+DEBUG[06-09|00:37:59.740] 1:InProc registered *mc.PrivateAdminAPI under 'admin' 
+DEBUG[06-09|00:37:59.740] 1:InProc registered *mc.PublicDebugAPI under 'debug' 
+DEBUG[06-09|00:37:59.740] 1:InProc registered *mc.PrivateDebugAPI under 'debug' 
+DEBUG[06-09|00:37:59.740] 1:InProc registered *mcapi.PublicNetAPI under 'net' 
+INFO [06-09|00:37:59.740] 1:[node/node.go->Node.startIPC] 
+INFO [06-09|00:37:59.740] 130:[rpc/inproc.go->DialInProc] 
+INFO [06-09|00:37:59.740] 128:IPC endpoint opened: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+DEBUG[06-09|00:37:59.742] nat.go line109:Couldn't add port mapping proto=tcp extport=30333 intport=30333 interface="UPNP IGDv2-IP2" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[06-09|00:37:59.744] 40:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:37:59.744] 40:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:37:59.744] 40:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:38:00.248] 35:No discv4 seed nodes found 
+DEBUG[06-09|00:38:04.248] 134:No discv4 seed nodes found 
+DEBUG[06-09|00:38:08.253] 42:No discv4 seed nodes found 
+INFO [06-09|00:38:11.041] 128:[node/node.go->Node.startIPC call ServeCodec] 
+DEBUG[06-09|00:38:11.118] 148:[mc/backend.go->MoacNode.Moacbase] 
+DEBUG[06-09|00:38:11.122] 65:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-09|00:38:11.122] 65:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:38:12.258] 163:No discv4 seed nodes found 
+INFO [06-09|00:38:14.527] 97:Transaction pool price threshold updated price=18000000000
+DEBUG[06-09|00:38:14.527] 97:[mc/backend.go->MoacNode.Moacbase] 
+INFO [06-09|00:38:14.527] 178:Starting mining operation 
+DEBUG[06-09|00:38:14.527] 178:worker.commitNewWork 
+DEBUG[06-09|00:38:14.527] 178:[core/types/New .go->MakeSigner:ChainId] 99 
+DEBUG[06-09|00:38:14.527] 178:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-09|00:38:14.528] 178:[core/state_transition.go->ApplyMessage] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-09|00:38:14.528] 178:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-09|00:38:14.528] 178:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-09|00:38:14.528] 178:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=7161 &evm.StateDB=0xc420272b00 
+DEBUG[06-09|00:38:14.528] 178:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-09|00:38:14.528] 178:RunPrecompiledContract 
+DEBUG[06-09|00:38:14.528] 178:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-09|00:38:14.528] 178:input c1c0e9c4 
+DEBUG[06-09|00:38:14.528] 178:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-09|00:38:14.528] 178:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-09|00:38:14.528] 178:Commit new mining work               number=1 txs=1 uncles=0 elapsed=915.439µs
+DEBUG[06-09|00:38:14.528] 172:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-09|00:38:14.528] Loaded old ethash dataset from disk      epoch=0
+DEBUG[06-09|00:38:14.538] Loaded old ethash dataset from disk      epoch=1
+DEBUG[06-09|00:38:16.301] 152:No discv4 seed nodes found 
+DEBUG[06-09|00:38:20.302] 142:No discv4 seed nodes found 
+DEBUG[06-09|00:38:24.323] 197:No discv4 seed nodes found 
+DEBUG[06-09|00:38:24.486] 158:NTP sanity check done                drift=4.283145ms
+DEBUG[06-09|00:38:27.750] 160:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-09|00:38:27.750] 160:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-09|00:38:27.750] 160:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-09|00:38:27.750] 160:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:38:27.750] 160:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:38:28.336] 227:No discv4 seed nodes found 
+DEBUG[06-09|00:38:28.602] 233:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:38:28.603] 233:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:38:28.603] 233:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-09|00:38:28.603] 233:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:38:28.603] 205:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:38:28.603] 102:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-... addr=18.217.180.94:30333 peers=1
+DEBUG[06-09|00:38:28.603] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-09|00:38:28.603] 242:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-09|00:38:28.603] 242:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-09|00:38:28.603] 242:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-09|00:38:28.752] 207:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-09|00:38:28.752] 207:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-09|00:38:28.752] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-09|00:38:28.752] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=148.689ms peers=0 req=true err="subprotocol error"
+DEBUG[06-09|00:38:28.893] 102:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-09|00:38:28.893] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-09|00:38:29.041] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-09|00:38:29.041] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=148.302ms peers=0 req=true err="subprotocol error"
+DEBUG[06-09|00:38:29.041] 102:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-09|00:38:29.041] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-09|00:38:29.188] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-09|00:38:29.188] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=146.490ms peers=0 req=true err="subprotocol error"
+DEBUG[06-09|00:38:32.342] 260:No discv4 seed nodes found 
+DEBUG[06-09|00:38:36.328] 236:No discv4 seed nodes found 
+DEBUG[06-09|00:38:40.357] 185:No discv4 seed nodes found 
+DEBUG[06-09|00:38:44.360] 268:No discv4 seed nodes found 
+DEBUG[06-09|00:38:48.431] 290:No discv4 seed nodes found 
+DEBUG[06-09|00:38:52.361] 276:No discv4 seed nodes found 
+INFO [06-09|00:38:55.167] 129:Got interrupt, shutting down... 
+INFO [06-09|00:38:55.168] 191:IPC endpoint closed: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+DEBUG[06-09|00:38:55.168] 191:RPC Server shutdown initiatied 
+DEBUG[06-09|00:38:55.168] 49:read error read unix /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc->: use of closed network connection
+ 
+INFO [06-09|00:38:55.168] 191:Blockchain manager stopped 
+INFO [06-09|00:38:55.168] 191:Stopping MoacNode protocol 
+INFO [06-09|00:38:55.168] 191:MoacNode protocol stopped 
+INFO [06-09|00:38:55.168] 191:Transaction pool stopped 
+INFO [06-09|00:38:55.186] Database closed                          database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata
+DEBUG[06-09|00:38:55.186] 100:Read error                           err="accept tcp [::]:30333: use of closed network connection"
+DEBUG[06-09|00:38:55.186] Deleting port mapping                    proto=udp extport=30333 intport=30333 interface="UPNP IGDv2-IP2"
+DEBUG[06-09|00:38:55.186] 99:UDP read error                        err="read udp [::]:30333: use of closed network connection"
+DEBUG[06-09|00:38:55.186] Deleting port mapping                    proto=tcp extport=30333 intport=30333 interface="UPNP IGDv2-IP2"
+DEBUG[06-16|10:51:30.124] 1:[cmd/moac/main.go->moac] about to call makeFullNode ctx 
+INFO [06-16|10:51:30.124] 36:[vnode/scsservices.go->VnodeServiceStart] 
+DEBUG[06-16|10:51:30.126] 36:load file /Users/hanwencheng/Documents/moac/vnode/vnodeconfig.json 
+DEBUG[06-16|10:51:30.128] 1:Reloaded keystore contents             accounts=0
+DEBUG[06-16|10:51:30.136] 1:Reloaded keystore contents             accounts=0
+WARN [06-16|10:51:30.136] No moacbase set and no accounts found as default 
+DEBUG[06-16|10:51:30.136] 1:Register &{<nil> 8666 fast 0 20 false 1024 128 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 0 [] 18000000000 ethash 2 3 /Users/hanwencheng/.ethash 1 2 {false transactions.rlp 1h0m0s 1 10 16 40960 64 1024 3h0m0s} {10 50 <nil>} false  false false false} 
+INFO [06-16|10:51:30.138] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-16|10:51:30.139] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+DEBUG[06-16|10:51:30.139] 36:try to listen to localhost:50062 
+DEBUG[06-16|10:51:30.139] 36:listen to localhost:50062 
+WARN [06-16|10:51:30.157] Upgrading database to use lookup entries 
+DEBUG[06-16|10:51:30.158] 1:Empty genesis info 
+DEBUG[06-16|10:51:30.158] 1:configOrDefault:0x4359ff13fbfab88a89038532008081a090f4cab799cbdf45b7a49f6b0cf61e92
+ 
+INFO [06-16|10:51:30.159] 43:Database deduplication successful     deduped=0
+DEBUG[06-16|10:51:30.159] 1:Initialized chain configuration {ChainID: 8666 Pangu: 0 Engine: unknown} 
+INFO [06-16|10:51:30.159] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-16|10:51:30.159] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-16|10:51:30.160] 1:Initializing MoacNode protocol         versions="[63 62]" network=8666
+DEBUG[06-16|10:51:30.160] 1:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-16|10:51:30.161] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:51:30.161] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:51:30.161] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:30.162] 1:[rlp/encode.go->makeWriter] typ.AssignableTo(bigInt) 
+INFO [06-16|10:51:30.162] 1:Loaded most recent local header        number=0 hash=0x4359ff13fbfab88a89038532008081a090f4cab799cbdf45b7a49f6b0cf61e92 td=512
+INFO [06-16|10:51:30.163] 1:Loaded most recent local full block    number=0 hash=0x4359ff13fbfab88a89038532008081a090f4cab799cbdf45b7a49f6b0cf61e92 td=512
+INFO [06-16|10:51:30.163] 1:Loaded most recent local fast block    number=0 hash=0x4359ff13fbfab88a89038532008081a090f4cab799cbdf45b7a49f6b0cf61e92 td=512
+DEBUG[06-16|10:51:30.163] 1:[vnode/scsservices.go->NewScsService] 
+DEBUG[06-16|10:51:30.164] 1:Reinjecting stale transactions         count=0
+DEBUG[06-16|10:51:30.164] 1:addTxsLocked txs [] 
+INFO [06-16|10:51:30.165] 1:Regenerated local transaction journal  transactions=0 accounts=0
+DEBUG[06-16|10:51:30.165] 1:[mc/network_relay] NewNetworkRelay 
+DEBUG[06-16|10:51:30.166] 66:[mc/network_relay] setupScsServersChannels 
+DEBUG[06-16|10:51:30.167] 1:worker.commitNewWork 
+DEBUG[06-16|10:51:30.168] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:30.169] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:30.169] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:30.169] 1:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:51:30.169] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:30.170] 1:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-16|10:51:30.170] 1:[core/state_transition.go->ApplyMessage] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-16|10:51:30.170] 1:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:51:30.170] 1:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-16|10:51:30.171] 1:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:51:30.171] 1:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-16|10:51:30.171] 1:RunPrecompiledContract 
+DEBUG[06-16|10:51:30.171] 1:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:51:30.173] 1:input c1c0e9c4 
+DEBUG[06-16|10:51:30.173] 1:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:51:30.174] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-16|10:51:30.174] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:51:30.174] 1:[consensus/ethash/consensus.go->Finalize] 
+DEBUG[06-16|10:51:30.174] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-16|10:51:30.174] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:30.174] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:30.175] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-16|10:51:30.175] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:51:30.175] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-16|10:51:30.175] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:51:30.175] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-16|10:51:30.176] 70:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|10:51:30.176] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:51:30.176] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:51:30.176] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:51:30.176] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:30.176] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:30.176] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-16|10:51:30.176] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:51:30.177] 1:[rlp/encode.go->makeWriter] reflect.String 
+INFO [06-16|10:51:30.178] 1:Starting P2P networking 
+DEBUG[06-16|10:51:30.972] 37:Reloaded keystore contents            accounts=0
+DEBUG[06-16|10:51:32.320] nat.go line109:Couldn't add port mapping proto=udp extport=30333 intport=30333 interface="UPNP IGDv2-IP2" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+INFO [06-16|10:51:32.326] 1:UDP listener up                        self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+INFO [06-16|10:51:32.327] 120:RLPx listener up                     self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+DEBUG[06-16|10:51:32.329] 59:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:32.329] 59:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:32.329] 59:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:32.329] 1:InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[06-16|10:51:32.329] 1:InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[06-16|10:51:32.330] 1:InProc registered *debug.HandlerT under 'debug' 
+DEBUG[06-16|10:51:32.330] 1:InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[06-16|10:51:32.331] 1:InProc registered *node.PublicChain3API under 'chain3' 
+DEBUG[06-16|10:51:32.331] 1:InProc registered *mcapi.PublicMoacAPI under 'mc' 
+DEBUG[06-16|10:51:32.331] 1:InProc registered *mcapi.PublicBlockChainAPI under 'mc' 
+DEBUG[06-16|10:51:32.332] 1:InProc registered *mcapi.PublicTransactionPoolAPI under 'mc' 
+DEBUG[06-16|10:51:32.332] 1:InProc registered *mcapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[06-16|10:51:32.332] 1:InProc registered *mcapi.PublicDebugAPI under 'debug' 
+DEBUG[06-16|10:51:32.332] 1:InProc registered *mcapi.PrivateDebugAPI under 'debug' 
+DEBUG[06-16|10:51:32.332] 1:InProc registered *mcapi.PublicAccountAPI under 'mc' 
+DEBUG[06-16|10:51:32.332] 1:InProc registered *mcapi.PrivateAccountAPI under 'personal' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *mc.PublicMoacAPI under 'mc' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *mc.PublicMinerAPI under 'mc' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *downloader.PublicDownloaderAPI under 'mc' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *mc.PrivateMinerAPI under 'miner' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *filters.PublicFilterAPI under 'mc' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *mc.PrivateAdminAPI under 'admin' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *mc.PublicDebugAPI under 'debug' 
+DEBUG[06-16|10:51:32.333] 1:InProc registered *mc.PrivateDebugAPI under 'debug' 
+DEBUG[06-16|10:51:32.334] 1:InProc registered *mcapi.PublicNetAPI under 'net' 
+INFO [06-16|10:51:32.334] 1:[node/node.go->Node.startIPC] 
+INFO [06-16|10:51:32.335] 148:IPC endpoint opened: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-16|10:51:32.335] 150:[rpc/inproc.go->DialInProc] 
+DEBUG[06-16|10:51:32.336] nat.go line109:Couldn't add port mapping proto=tcp extport=30333 intport=30333 interface="UPNP IGDv2-IP2" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[06-16|10:51:32.832] 54:No discv4 seed nodes found 
+DEBUG[06-16|10:51:36.840] 85:No discv4 seed nodes found 
+DEBUG[06-16|10:51:40.837] 151:No discv4 seed nodes found 
+DEBUG[06-16|10:51:44.847] 158:No discv4 seed nodes found 
+DEBUG[06-16|10:51:48.848] 105:No discv4 seed nodes found 
+DEBUG[06-16|10:51:52.855] 179:No discv4 seed nodes found 
+DEBUG[06-16|10:51:56.867] 88:No discv4 seed nodes found 
+DEBUG[06-16|10:51:57.889] 189:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-16|10:51:57.889] 189:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-16|10:51:57.889] 189:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-16|10:51:57.889] 189:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:57.889] 189:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:58.071] 187:NTP sanity check done                drift=-2.297642ms
+DEBUG[06-16|10:51:58.429] 192:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:58.430] 194:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:58.430] 194:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:51:58.430] 194:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:58.431] 194:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:58.431] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-... addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:51:58.440] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:51:58.441] 198:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-16|10:51:58.441] 198:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:51:58.441] 198:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:51:58.564] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:51:58.564] 195:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-16|10:51:58.564] 195:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:51:58.565] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=133.952ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:51:58.695] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:51:58.695] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:51:58.819] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|10:51:58.819] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:51:58.821] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:51:58.821] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=126.534ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|10:51:58.945] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:51:58.946] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=127.191ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:52:00.856] 171:No discv4 seed nodes found 
+DEBUG[06-16|10:52:04.866] 177:No discv4 seed nodes found 
+DEBUG[06-16|10:52:08.861] 228:No discv4 seed nodes found 
+DEBUG[06-16|10:52:12.866] 215:No discv4 seed nodes found 
+DEBUG[06-16|10:52:16.867] 221:No discv4 seed nodes found 
+DEBUG[06-16|10:52:20.869] 259:No discv4 seed nodes found 
+DEBUG[06-16|10:52:24.878] 266:No discv4 seed nodes found 
+DEBUG[06-16|10:52:28.868] 245:No discv4 seed nodes found 
+INFO [06-16|10:52:30.747] 148:[node/node.go->Node.startIPC call ServeCodec] 
+DEBUG[06-16|10:52:30.922] 277:[mc/backend.go->MoacNode.Moacbase] 
+DEBUG[06-16|10:52:32.889] 238:No discv4 seed nodes found 
+DEBUG[06-16|10:52:34.427] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:52:34.427] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:52:34.552] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:52:34.553] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=125.693ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:52:34.675] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:52:34.675] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:52:34.802] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:52:34.802] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=127.147ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:52:34.811] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:52:34.812] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:52:34.937] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:52:34.937] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=125.886ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:52:36.882] 309:No discv4 seed nodes found 
+DEBUG[06-16|10:52:40.888] 304:No discv4 seed nodes found 
+DEBUG[06-16|10:52:44.893] 343:No discv4 seed nodes found 
+DEBUG[06-16|10:52:48.897] 254:No discv4 seed nodes found 
+DEBUG[06-16|10:52:52.896] 357:No discv4 seed nodes found 
+DEBUG[06-16|10:52:56.910] 364:No discv4 seed nodes found 
+DEBUG[06-16|10:53:00.905] 371:No discv4 seed nodes found 
+DEBUG[06-16|10:53:04.911] 318:No discv4 seed nodes found 
+DEBUG[06-16|10:53:05.168] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:53:05.168] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:53:05.293] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:53:05.293] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=125.364ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:53:05.423] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:53:05.423] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:53:05.896] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:53:05.897] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=473.598ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:53:05.898] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:53:05.898] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:53:06.025] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:53:06.025] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=127.221ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:53:08.918] 378:No discv4 seed nodes found 
+DEBUG[06-16|10:53:12.919] 384:No discv4 seed nodes found 
+DEBUG[06-16|10:53:16.917] 334:No discv4 seed nodes found 
+DEBUG[06-16|10:53:19.165] 37:Reloaded keystore contents            accounts=1
+DEBUG[06-16|10:53:19.670] 37:Reloaded keystore contents            accounts=1
+DEBUG[06-16|10:53:20.924] 424:No discv4 seed nodes found 
+DEBUG[06-16|10:53:24.926] 353:No discv4 seed nodes found 
+DEBUG[06-16|10:53:28.926] 441:No discv4 seed nodes found 
+INFO [06-16|10:53:32.908] 469:Transaction pool price threshold updated price=18000000000
+DEBUG[06-16|10:53:32.909] 469:[mc/backend.go->MoacNode.Moacbase] 
+INFO [06-16|10:53:32.909] 470:Starting mining operation 
+DEBUG[06-16|10:53:32.909] 470:worker.commitNewWork 
+DEBUG[06-16|10:53:32.910] 470:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:53:32.910] 470:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-16|10:53:32.911] 470:[core/state_transition.go->ApplyMessage] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-16|10:53:32.911] 470:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:53:32.911] 470:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-16|10:53:32.911] 470:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:53:32.911] 470:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [92 69 231 115 155 171 210 119 73 140 19 138 226 73 151 159 44 128 150 51 68 37 140 133 210 134 107 179 136 224 86 117] 
+DEBUG[06-16|10:53:32.911] 470:RunPrecompiledContract 
+DEBUG[06-16|10:53:32.911] 470:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:53:32.912] 470:input c1c0e9c4 
+DEBUG[06-16|10:53:32.912] 470:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:53:32.912] 470:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:53:32.912] 470:Commit new mining work               number=1 txs=1 uncles=0 elapsed=3.036ms
+DEBUG[06-16|10:53:32.912] 474:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|10:53:32.914] Failed to load old ethash dataset        epoch=0 err="open /Users/hanwencheng/.ethash/full-R23-0000000000000000: no such file or directory"
+DEBUG[06-16|10:53:32.938] 458:No discv4 seed nodes found 
+DEBUG[06-16|10:53:34.358] Generated ethash verification cache      epoch=0 elapsed=1.424s
+INFO [06-16|10:53:36.690] Generating DAG in progress               epoch=0 percentage=0 elapsed=2.032s
+DEBUG[06-16|10:53:36.970] 484:No discv4 seed nodes found 
+DEBUG[06-16|10:53:37.242] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:53:37.242] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:53:37.375] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:53:37.375] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=133.335ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:53:37.503] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:53:37.503] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:53:37.639] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:53:37.639] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=135.959ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:53:37.640] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:53:37.640] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:53:37.775] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:53:37.775] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=134.828ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|10:53:38.465] Generating DAG in progress               epoch=0 percentage=1 elapsed=3.807s
+INFO [06-16|10:53:40.316] Generating DAG in progress               epoch=0 percentage=2 elapsed=5.658s
+DEBUG[06-16|10:53:41.053] 520:No discv4 seed nodes found 
+INFO [06-16|10:53:42.019] Generating DAG in progress               epoch=0 percentage=3 elapsed=7.361s
+INFO [06-16|10:53:43.731] Generating DAG in progress               epoch=0 percentage=4 elapsed=9.073s
+DEBUG[06-16|10:53:45.039] 530:No discv4 seed nodes found 
+INFO [06-16|10:53:45.451] Generating DAG in progress               epoch=0 percentage=5 elapsed=10.794s
+INFO [06-16|10:53:47.125] Generating DAG in progress               epoch=0 percentage=6 elapsed=12.468s
+INFO [06-16|10:53:49.015] Generating DAG in progress               epoch=0 percentage=7 elapsed=14.357s
+DEBUG[06-16|10:53:49.050] 528:No discv4 seed nodes found 
+INFO [06-16|10:53:50.788] Generating DAG in progress               epoch=0 percentage=8 elapsed=16.131s
+INFO [06-16|10:53:52.463] Generating DAG in progress               epoch=0 percentage=9 elapsed=17.806s
+DEBUG[06-16|10:53:53.051] 506:No discv4 seed nodes found 
+INFO [06-16|10:53:54.210] Generating DAG in progress               epoch=0 percentage=10 elapsed=19.552s
+INFO [06-16|10:53:55.893] Generating DAG in progress               epoch=0 percentage=11 elapsed=21.235s
+DEBUG[06-16|10:53:57.037] 551:No discv4 seed nodes found 
+INFO [06-16|10:53:57.581] Generating DAG in progress               epoch=0 percentage=12 elapsed=22.923s
+INFO [06-16|10:53:59.366] Generating DAG in progress               epoch=0 percentage=13 elapsed=24.707s
+DEBUG[06-16|10:54:01.080] 562:No discv4 seed nodes found 
+INFO [06-16|10:54:01.149] Generating DAG in progress               epoch=0 percentage=14 elapsed=26.491s
+INFO [06-16|10:54:02.844] Generating DAG in progress               epoch=0 percentage=15 elapsed=28.185s
+INFO [06-16|10:54:04.537] Generating DAG in progress               epoch=0 percentage=16 elapsed=29.879s
+DEBUG[06-16|10:54:05.079] 559:No discv4 seed nodes found 
+INFO [06-16|10:54:06.256] Generating DAG in progress               epoch=0 percentage=17 elapsed=31.598s
+INFO [06-16|10:54:07.942] Generating DAG in progress               epoch=0 percentage=18 elapsed=33.283s
+DEBUG[06-16|10:54:09.072] 541:No discv4 seed nodes found 
+DEBUG[06-16|10:54:09.337] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:54:09.338] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:54:09.470] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:54:09.470] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=132.885ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:54:09.612] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:54:09.613] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:54:09.742] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:54:09.742] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=130.086ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|10:54:09.812] Generating DAG in progress               epoch=0 percentage=19 elapsed=35.154s
+DEBUG[06-16|10:54:10.011] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:54:10.011] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:54:10.148] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:54:10.148] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=137.291ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|10:54:11.531] Generating DAG in progress               epoch=0 percentage=20 elapsed=36.872s
+DEBUG[06-16|10:54:13.038] 415:No discv4 seed nodes found 
+INFO [06-16|10:54:13.290] Generating DAG in progress               epoch=0 percentage=21 elapsed=38.631s
+INFO [06-16|10:54:14.987] Generating DAG in progress               epoch=0 percentage=22 elapsed=40.329s
+INFO [06-16|10:54:16.736] Generating DAG in progress               epoch=0 percentage=23 elapsed=42.078s
+DEBUG[06-16|10:54:17.167] 572:No discv4 seed nodes found 
+INFO [06-16|10:54:18.438] Generating DAG in progress               epoch=0 percentage=24 elapsed=43.780s
+INFO [06-16|10:54:20.228] Generating DAG in progress               epoch=0 percentage=25 elapsed=45.569s
+DEBUG[06-16|10:54:21.114] 658:No discv4 seed nodes found 
+INFO [06-16|10:54:21.949] Generating DAG in progress               epoch=0 percentage=26 elapsed=47.291s
+INFO [06-16|10:54:23.628] Generating DAG in progress               epoch=0 percentage=27 elapsed=48.970s
+DEBUG[06-16|10:54:25.125] 645:No discv4 seed nodes found 
+INFO [06-16|10:54:25.335] Generating DAG in progress               epoch=0 percentage=28 elapsed=50.676s
+INFO [06-16|10:54:27.017] Generating DAG in progress               epoch=0 percentage=29 elapsed=52.358s
+INFO [06-16|10:54:28.725] Generating DAG in progress               epoch=0 percentage=30 elapsed=54.066s
+DEBUG[06-16|10:54:29.124] 664:No discv4 seed nodes found 
+INFO [06-16|10:54:30.502] Generating DAG in progress               epoch=0 percentage=31 elapsed=55.843s
+INFO [06-16|10:54:32.170] Generating DAG in progress               epoch=0 percentage=32 elapsed=57.511s
+DEBUG[06-16|10:54:33.160] 670:No discv4 seed nodes found 
+INFO [06-16|10:54:33.866] Generating DAG in progress               epoch=0 percentage=33 elapsed=59.207s
+INFO [06-16|10:54:35.558] Generating DAG in progress               epoch=0 percentage=34 elapsed=1m0.899s
+DEBUG[06-16|10:54:37.231] 589:No discv4 seed nodes found 
+INFO [06-16|10:54:37.254] Generating DAG in progress               epoch=0 percentage=35 elapsed=1m2.595s
+INFO [06-16|10:54:38.964] Generating DAG in progress               epoch=0 percentage=36 elapsed=1m4.305s
+INFO [06-16|10:54:40.922] Generating DAG in progress               epoch=0 percentage=37 elapsed=1m6.262s
+DEBUG[06-16|10:54:41.183] 691:No discv4 seed nodes found 
+DEBUG[06-16|10:54:41.440] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:54:41.440] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:54:41.576] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:54:41.576] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=136.825ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:54:41.713] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:54:41.713] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:54:41.837] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:54:41.860] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=147.041ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:54:42.140] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:54:42.141] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:54:42.266] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:54:42.266] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=126.413ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|10:54:42.603] Generating DAG in progress               epoch=0 percentage=38 elapsed=1m7.944s
+INFO [06-16|10:54:44.286] Generating DAG in progress               epoch=0 percentage=39 elapsed=1m9.627s
+DEBUG[06-16|10:54:45.235] 705:No discv4 seed nodes found 
+INFO [06-16|10:54:45.967] Generating DAG in progress               epoch=0 percentage=40 elapsed=1m11.307s
+INFO [06-16|10:54:47.656] Generating DAG in progress               epoch=0 percentage=41 elapsed=1m12.997s
+DEBUG[06-16|10:54:49.174] 688:No discv4 seed nodes found 
+INFO [06-16|10:54:49.420] Generating DAG in progress               epoch=0 percentage=42 elapsed=1m14.760s
+INFO [06-16|10:54:51.148] Generating DAG in progress               epoch=0 percentage=43 elapsed=1m16.488s
+INFO [06-16|10:54:52.834] Generating DAG in progress               epoch=0 percentage=44 elapsed=1m18.174s
+DEBUG[06-16|10:54:53.192] 714:No discv4 seed nodes found 
+INFO [06-16|10:54:54.530] Generating DAG in progress               epoch=0 percentage=45 elapsed=1m19.871s
+INFO [06-16|10:54:56.197] Generating DAG in progress               epoch=0 percentage=46 elapsed=1m21.537s
+DEBUG[06-16|10:54:57.232] 729:No discv4 seed nodes found 
+INFO [06-16|10:54:57.887] Generating DAG in progress               epoch=0 percentage=47 elapsed=1m23.227s
+INFO [06-16|10:54:59.679] Generating DAG in progress               epoch=0 percentage=48 elapsed=1m25.020s
+DEBUG[06-16|10:55:01.299] 720:No discv4 seed nodes found 
+INFO [06-16|10:55:01.465] Generating DAG in progress               epoch=0 percentage=49 elapsed=1m26.805s
+INFO [06-16|10:55:03.119] Generating DAG in progress               epoch=0 percentage=50 elapsed=1m28.459s
+INFO [06-16|10:55:04.794] Generating DAG in progress               epoch=0 percentage=51 elapsed=1m30.134s
+DEBUG[06-16|10:55:05.270] 631:No discv4 seed nodes found 
+INFO [06-16|10:55:06.497] Generating DAG in progress               epoch=0 percentage=52 elapsed=1m31.837s
+INFO [06-16|10:55:08.263] Generating DAG in progress               epoch=0 percentage=53 elapsed=1m33.602s
+DEBUG[06-16|10:55:09.279] 758:No discv4 seed nodes found 
+INFO [06-16|10:55:10.052] Generating DAG in progress               epoch=0 percentage=54 elapsed=1m35.392s
+INFO [06-16|10:55:11.746] Generating DAG in progress               epoch=0 percentage=55 elapsed=1m37.086s
+DEBUG[06-16|10:55:13.316] 764:No discv4 seed nodes found 
+INFO [06-16|10:55:13.492] Generating DAG in progress               epoch=0 percentage=56 elapsed=1m38.832s
+DEBUG[06-16|10:55:13.576] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:55:13.576] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:55:13.709] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:55:13.710] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=133.845ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+INFO [06-16|10:55:15.169] Generating DAG in progress               epoch=0 percentage=57 elapsed=1m40.509s
+DEBUG[06-16|10:55:15.304] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:55:15.305] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:55:15.447] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:55:15.447] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=142.736ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:55:15.585] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:55:15.585] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:55:15.734] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:55:15.735] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=149.560ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|10:55:16.896] Generating DAG in progress               epoch=0 percentage=58 elapsed=1m42.236s
+DEBUG[06-16|10:55:17.357] 774:No discv4 seed nodes found 
+INFO [06-16|10:55:18.583] Generating DAG in progress               epoch=0 percentage=59 elapsed=1m43.922s
+INFO [06-16|10:55:20.403] Generating DAG in progress               epoch=0 percentage=60 elapsed=1m45.743s
+DEBUG[06-16|10:55:21.326] 808:No discv4 seed nodes found 
+INFO [06-16|10:55:22.086] Generating DAG in progress               epoch=0 percentage=61 elapsed=1m47.426s
+INFO [06-16|10:55:23.859] Generating DAG in progress               epoch=0 percentage=62 elapsed=1m49.199s
+DEBUG[06-16|10:55:25.346] 780:No discv4 seed nodes found 
+INFO [06-16|10:55:25.506] Generating DAG in progress               epoch=0 percentage=63 elapsed=1m50.845s
+INFO [06-16|10:55:27.136] Generating DAG in progress               epoch=0 percentage=64 elapsed=1m52.475s
+INFO [06-16|10:55:28.787] Generating DAG in progress               epoch=0 percentage=65 elapsed=1m54.127s
+DEBUG[06-16|10:55:29.326] 798:No discv4 seed nodes found 
+INFO [06-16|10:55:30.602] Generating DAG in progress               epoch=0 percentage=66 elapsed=1m55.941s
+INFO [06-16|10:55:32.270] Generating DAG in progress               epoch=0 percentage=67 elapsed=1m57.609s
+DEBUG[06-16|10:55:33.401] 815:No discv4 seed nodes found 
+INFO [06-16|10:55:33.917] Generating DAG in progress               epoch=0 percentage=68 elapsed=1m59.256s
+INFO [06-16|10:55:35.610] Generating DAG in progress               epoch=0 percentage=69 elapsed=2m0.949s
+INFO [06-16|10:55:37.285] Generating DAG in progress               epoch=0 percentage=70 elapsed=2m2.625s
+DEBUG[06-16|10:55:37.402] 867:No discv4 seed nodes found 
+INFO [06-16|10:55:38.948] Generating DAG in progress               epoch=0 percentage=71 elapsed=2m4.287s
+INFO [06-16|10:55:40.734] Generating DAG in progress               epoch=0 percentage=72 elapsed=2m6.073s
+DEBUG[06-16|10:55:41.399] 821:No discv4 seed nodes found 
+INFO [06-16|10:55:42.427] Generating DAG in progress               epoch=0 percentage=73 elapsed=2m7.766s
+INFO [06-16|10:55:44.076] Generating DAG in progress               epoch=0 percentage=74 elapsed=2m9.415s
+DEBUG[06-16|10:55:45.410] 828:No discv4 seed nodes found 
+INFO [06-16|10:55:45.745] Generating DAG in progress               epoch=0 percentage=75 elapsed=2m11.083s
+INFO [06-16|10:55:47.391] Generating DAG in progress               epoch=0 percentage=76 elapsed=2m12.730s
+INFO [06-16|10:55:49.091] Generating DAG in progress               epoch=0 percentage=77 elapsed=2m14.430s
+DEBUG[06-16|10:55:49.414] 874:No discv4 seed nodes found 
+INFO [06-16|10:55:50.901] Generating DAG in progress               epoch=0 percentage=78 elapsed=2m16.240s
+INFO [06-16|10:55:52.538] Generating DAG in progress               epoch=0 percentage=79 elapsed=2m17.877s
+DEBUG[06-16|10:55:53.352] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:55:53.353] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:55:53.443] 882:No discv4 seed nodes found 
+DEBUG[06-16|10:55:53.487] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:55:53.488] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=135.854ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:55:53.622] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:55:53.622] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:55:53.762] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:55:53.763] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|10:55:53.763] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=140.590ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|10:55:53.763] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:55:53.901] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:55:53.901] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=138.656ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|10:55:54.224] Generating DAG in progress               epoch=0 percentage=80 elapsed=2m19.562s
+INFO [06-16|10:55:55.906] Generating DAG in progress               epoch=0 percentage=81 elapsed=2m21.244s
+DEBUG[06-16|10:55:57.483] 849:No discv4 seed nodes found 
+INFO [06-16|10:55:57.569] Generating DAG in progress               epoch=0 percentage=82 elapsed=2m22.907s
+INFO [06-16|10:55:59.253] Generating DAG in progress               epoch=0 percentage=83 elapsed=2m24.591s
+INFO [06-16|10:56:01.075] Generating DAG in progress               epoch=0 percentage=84 elapsed=2m26.414s
+DEBUG[06-16|10:56:01.449] 908:No discv4 seed nodes found 
+INFO [06-16|10:56:02.748] Generating DAG in progress               epoch=0 percentage=85 elapsed=2m28.087s
+INFO [06-16|10:56:04.419] Generating DAG in progress               epoch=0 percentage=86 elapsed=2m29.758s
+DEBUG[06-16|10:56:05.521] 895:No discv4 seed nodes found 
+INFO [06-16|10:56:06.079] Generating DAG in progress               epoch=0 percentage=87 elapsed=2m31.417s
+INFO [06-16|10:56:07.752] Generating DAG in progress               epoch=0 percentage=88 elapsed=2m33.090s
+INFO [06-16|10:56:09.469] Generating DAG in progress               epoch=0 percentage=89 elapsed=2m34.807s
+DEBUG[06-16|10:56:09.487] 896:No discv4 seed nodes found 
+INFO [06-16|10:56:11.257] Generating DAG in progress               epoch=0 percentage=90 elapsed=2m36.595s
+INFO [06-16|10:56:12.930] Generating DAG in progress               epoch=0 percentage=91 elapsed=2m38.268s
+DEBUG[06-16|10:56:13.534] 946:No discv4 seed nodes found 
+INFO [06-16|10:56:14.574] Generating DAG in progress               epoch=0 percentage=92 elapsed=2m39.912s
+INFO [06-16|10:56:16.230] Generating DAG in progress               epoch=0 percentage=93 elapsed=2m41.568s
+DEBUG[06-16|10:56:17.507] 947:No discv4 seed nodes found 
+INFO [06-16|10:56:17.904] Generating DAG in progress               epoch=0 percentage=94 elapsed=2m43.242s
+INFO [06-16|10:56:19.653] Generating DAG in progress               epoch=0 percentage=95 elapsed=2m44.990s
+INFO [06-16|10:56:21.477] Generating DAG in progress               epoch=0 percentage=96 elapsed=2m46.815s
+DEBUG[06-16|10:56:21.576] 949:No discv4 seed nodes found 
+INFO [06-16|10:56:23.162] Generating DAG in progress               epoch=0 percentage=97 elapsed=2m48.499s
+DEBUG[06-16|10:56:24.793] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:56:24.794] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+INFO [06-16|10:56:24.814] Generating DAG in progress               epoch=0 percentage=98 elapsed=2m50.151s
+DEBUG[06-16|10:56:24.930] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:56:24.931] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=137.135ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:56:25.585] 954:No discv4 seed nodes found 
+DEBUG[06-16|10:56:25.878] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:56:25.897] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:56:26.013] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:56:26.013] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=135.244ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:56:26.143] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:56:26.143] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:56:26.269] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:56:26.269] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=126.823ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|10:56:26.871] Generating DAG in progress               epoch=0 percentage=99 elapsed=2m52.209s
+INFO [06-16|10:56:26.874] Generated ethash verification cache      epoch=0 elapsed=2m52.212s
+DEBUG[06-16|10:56:29.492] Failed to load old ethash dataset        epoch=1 err="open /Users/hanwencheng/.ethash/full-R23-290decd9548b62a8: no such file or directory"
+DEBUG[06-16|10:56:29.551] 965:No discv4 seed nodes found 
+INFO [06-16|10:56:32.572] Generating ethash verification cache     epoch=1 percentage=93 elapsed=3.023s
+INFO [06-16|10:56:32.793] Generated ethash verification cache      epoch=1 elapsed=3.243s
+DEBUG[06-16|10:56:33.982] 998:No discv4 seed nodes found 
+INFO [06-16|10:56:37.386] Generating DAG in progress               epoch=1 percentage=0  elapsed=4.199s
+DEBUG[06-16|10:56:37.872] 942:No discv4 seed nodes found 
+INFO [06-16|10:56:41.387] Generating DAG in progress               epoch=1 percentage=1  elapsed=8.200s
+DEBUG[06-16|10:56:41.926] 977:No discv4 seed nodes found 
+INFO [06-16|10:56:45.014] Generating DAG in progress               epoch=1 percentage=2  elapsed=11.827s
+DEBUG[06-16|10:56:45.886] 1034:No discv4 seed nodes found 
+INFO [06-16|10:56:48.665] Generating DAG in progress               epoch=1 percentage=3  elapsed=15.477s
+DEBUG[06-16|10:56:49.948] 1042:No discv4 seed nodes found 
+INFO [06-16|10:56:52.247] Generating DAG in progress               epoch=1 percentage=4  elapsed=19.060s
+DEBUG[06-16|10:56:53.994] 1059:No discv4 seed nodes found 
+INFO [06-16|10:56:55.701] Generating DAG in progress               epoch=1 percentage=5  elapsed=22.514s
+DEBUG[06-16|10:56:57.957] 1060:No discv4 seed nodes found 
+INFO [06-16|10:56:59.349] Generating DAG in progress               epoch=1 percentage=6  elapsed=26.162s
+DEBUG[06-16|10:57:02.046] 1049:No discv4 seed nodes found 
+INFO [06-16|10:57:02.860] Generating DAG in progress               epoch=1 percentage=7  elapsed=29.672s
+DEBUG[06-16|10:57:04.810] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:57:04.810] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:57:04.945] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:57:04.945] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=135.187ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:57:05.104] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:57:05.104] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:57:05.244] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|10:57:05.264] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:57:05.266] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:57:05.266] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=161.648ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|10:57:05.376] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:57:05.376] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=131.821ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:57:06.026] 1102:No discv4 seed nodes found 
+INFO [06-16|10:57:06.109] Generating DAG in progress               epoch=1 percentage=8  elapsed=32.921s
+INFO [06-16|10:57:09.671] Generating DAG in progress               epoch=1 percentage=9  elapsed=36.483s
+DEBUG[06-16|10:57:10.088] 1002:No discv4 seed nodes found 
+INFO [06-16|10:57:13.572] Generating DAG in progress               epoch=1 percentage=10 elapsed=40.384s
+DEBUG[06-16|10:57:14.023] 1052:No discv4 seed nodes found 
+INFO [06-16|10:57:14.025] 475:Successfully sealed new block        number=1 hash=0x528684e7d62ac63b1b9a75d82ea770ef1c2c38f7a03bc4db85ce72ee1aa274ec
+DEBUG[06-16|10:57:14.029] 68:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:57:14.030] 68:Trie cache stats after commit         misses=8 unloads=0
+DEBUG[06-16|10:57:14.030] 68:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:57:14.030] 68:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:57:14.031] 68:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:57:14.031] 68:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:57:14.031] 68:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:57:14.032] 68:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:57:14.032] 68:[rlp/encode.go->makeWriter] reflect.Struct 
+INFO [06-16|10:57:14.032] 68:🔨 mined potential block               number=1 hash=0x528684e7d62ac63b1b9a75d82ea770ef1c2c38f7a03bc4db85ce72ee1aa274ec
+DEBUG[06-16|10:57:14.033] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:14.033] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:14.033] 67:[params/config.go->IsPangu] PanguBlock:0 num:2 flag:true 
+DEBUG[06-16|10:57:14.034] 67:[core/state_transition.go->ApplyMessage] msgHash [251 118 229 5 147 32 30 128 130 101 68 37 15 249 218 60 233 167 77 171 2 158 127 6 67 211 165 158 147 224 250 30] 
+DEBUG[06-16|10:57:14.034] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:14.034] 67:[params/config.go->IsPangu] PanguBlock:0 num:2 flag:true 
+DEBUG[06-16|10:57:14.034] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:14.034] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [251 118 229 5 147 32 30 128 130 101 68 37 15 249 218 60 233 167 77 171 2 158 127 6 67 211 165 158 147 224 250 30] 
+DEBUG[06-16|10:57:14.034] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:14.034] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:14.034] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:14.035] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:14.035] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:14.035] 67:Commit new mining work                number=2 txs=1 uncles=0 elapsed=2.232ms
+DEBUG[06-16|10:57:14.042] 47:[params/config.go->IsPangu] PanguBlock:0 num:1 flag:true 
+DEBUG[06-16|10:57:14.043] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:14.045] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:14.045] 1139:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:17.333] Generating DAG in progress               epoch=1 percentage=11 elapsed=44.145s
+INFO [06-16|10:57:17.749] 1140:Successfully sealed new block       number=2 hash=0xf8d859d1a9fdf9f46b82863cbe7bffb0e2b5f7151d069196f409dee890f205cd
+DEBUG[06-16|10:57:17.750] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:17.750] 68:🔨 mined potential block               number=2 hash=0xf8d859d1a9fdf9f46b82863cbe7bffb0e2b5f7151d069196f409dee890f205cd
+DEBUG[06-16|10:57:17.750] 47:[params/config.go->IsPangu] PanguBlock:0 num:2 flag:true 
+DEBUG[06-16|10:57:17.750] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:17.750] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:17.765] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:17.765] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:17.765] 67:[params/config.go->IsPangu] PanguBlock:0 num:3 flag:true 
+DEBUG[06-16|10:57:17.766] 67:[core/state_transition.go->ApplyMessage] msgHash [140 238 75 29 208 178 58 65 17 25 54 185 174 198 239 132 18 161 229 76 221 234 72 105 191 47 133 66 10 69 63 11] 
+DEBUG[06-16|10:57:17.766] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:17.766] 67:[params/config.go->IsPangu] PanguBlock:0 num:3 flag:true 
+DEBUG[06-16|10:57:17.766] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:17.766] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [140 238 75 29 208 178 58 65 17 25 54 185 174 198 239 132 18 161 229 76 221 234 72 105 191 47 133 66 10 69 63 11] 
+DEBUG[06-16|10:57:17.766] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:17.766] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:17.767] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:17.767] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:17.767] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:17.767] 67:Commit new mining work                number=3 txs=1 uncles=0 elapsed=2.038ms
+DEBUG[06-16|10:57:17.767] 1112:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|10:57:17.999] 1054:No discv4 seed nodes found 
+INFO [06-16|10:57:20.928] 1113:Successfully sealed new block       number=3 hash=0xcec318e0332d0e30e8934227cbe95564245e6d0ed4357cc89499a6f31fe53a9c
+DEBUG[06-16|10:57:20.929] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:20.929] 68:🔨 mined potential block               number=3 hash=0xcec318e0332d0e30e8934227cbe95564245e6d0ed4357cc89499a6f31fe53a9c
+DEBUG[06-16|10:57:20.929] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:20.929] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:20.930] 67:[params/config.go->IsPangu] PanguBlock:0 num:4 flag:true 
+DEBUG[06-16|10:57:20.930] 67:[core/state_transition.go->ApplyMessage] msgHash [16 91 228 120 174 10 131 68 93 166 128 156 118 217 34 149 48 4 18 162 113 224 96 236 133 198 214 174 33 44 99 160] 
+DEBUG[06-16|10:57:20.930] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:20.930] 67:[params/config.go->IsPangu] PanguBlock:0 num:4 flag:true 
+DEBUG[06-16|10:57:20.930] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:20.930] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [16 91 228 120 174 10 131 68 93 166 128 156 118 217 34 149 48 4 18 162 113 224 96 236 133 198 214 174 33 44 99 160] 
+DEBUG[06-16|10:57:20.930] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:20.930] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:20.930] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:20.930] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:20.931] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:20.931] 67:Commit new mining work                number=4 txs=1 uncles=0 elapsed=1.521ms
+DEBUG[06-16|10:57:20.931] 47:[params/config.go->IsPangu] PanguBlock:0 num:3 flag:true 
+DEBUG[06-16|10:57:20.931] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:20.931] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:20.931] 1158:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:20.972] Generating DAG in progress               epoch=1 percentage=12 elapsed=47.784s
+INFO [06-16|10:57:21.507] 1159:Successfully sealed new block       number=4 hash=0xc541bd8652790ae36ab4cbe3ebdba1ed043341082a93bd384b7eb317218cbfd6
+DEBUG[06-16|10:57:21.507] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:21.507] 68:🔨 mined potential block               number=4 hash=0xc541bd8652790ae36ab4cbe3ebdba1ed043341082a93bd384b7eb317218cbfd6
+DEBUG[06-16|10:57:21.507] 47:[params/config.go->IsPangu] PanguBlock:0 num:4 flag:true 
+DEBUG[06-16|10:57:21.508] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:21.508] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:21.508] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:21.508] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:21.508] 67:[params/config.go->IsPangu] PanguBlock:0 num:5 flag:true 
+DEBUG[06-16|10:57:21.508] 67:[core/state_transition.go->ApplyMessage] msgHash [3 189 89 245 54 254 152 38 172 135 141 82 31 135 204 222 199 166 162 8 106 115 125 170 92 55 148 191 59 187 215 93] 
+DEBUG[06-16|10:57:21.508] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:21.508] 67:[params/config.go->IsPangu] PanguBlock:0 num:5 flag:true 
+DEBUG[06-16|10:57:21.508] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:21.509] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [3 189 89 245 54 254 152 38 172 135 141 82 31 135 204 222 199 166 162 8 106 115 125 170 92 55 148 191 59 187 215 93] 
+DEBUG[06-16|10:57:21.509] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:21.509] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:21.509] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:21.509] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:21.509] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:21.509] 67:Commit new mining work                number=5 txs=1 uncles=0 elapsed=1.522ms
+DEBUG[06-16|10:57:21.529] 1165:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|10:57:22.178] 1125:No discv4 seed nodes found 
+INFO [06-16|10:57:22.440] 1166:Successfully sealed new block       number=5 hash=0x2caa709a1e3b28c0b53b5d134f2758cad47aec59521083fb1bb6bf6169671e91
+DEBUG[06-16|10:57:22.463] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:22.463] 68:🔨 mined potential block               number=5 hash=0x2caa709a1e3b28c0b53b5d134f2758cad47aec59521083fb1bb6bf6169671e91
+DEBUG[06-16|10:57:22.464] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:22.464] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:22.464] 67:[params/config.go->IsPangu] PanguBlock:0 num:6 flag:true 
+DEBUG[06-16|10:57:22.465] 67:[core/state_transition.go->ApplyMessage] msgHash [90 114 123 212 89 134 20 55 68 131 156 160 12 46 140 180 158 155 100 222 171 29 82 195 55 241 236 254 155 206 164 168] 
+DEBUG[06-16|10:57:22.465] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:22.465] 67:[params/config.go->IsPangu] PanguBlock:0 num:6 flag:true 
+DEBUG[06-16|10:57:22.465] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:22.465] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [90 114 123 212 89 134 20 55 68 131 156 160 12 46 140 180 158 155 100 222 171 29 82 195 55 241 236 254 155 206 164 168] 
+DEBUG[06-16|10:57:22.466] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:22.466] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:22.466] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:22.466] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:22.466] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:22.466] 67:Commit new mining work                number=6 txs=1 uncles=0 elapsed=2.317ms
+DEBUG[06-16|10:57:22.466] 47:[params/config.go->IsPangu] PanguBlock:0 num:5 flag:true 
+DEBUG[06-16|10:57:22.467] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:22.467] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:22.467] 1147:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:22.689] 1148:Successfully sealed new block       number=6 hash=0x04484f2e68eb9533fa49113a424a26806f7a31fd2d1c30ff55ce958e3ba273f8
+DEBUG[06-16|10:57:22.690] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:22.690] 68:🔗 block reached canonical chain       number=1 hash=0x528684e7d62ac63b1b9a75d82ea770ef1c2c38f7a03bc4db85ce72ee1aa274ec
+INFO [06-16|10:57:22.691] 68:🔨 mined potential block               number=6 hash=0x04484f2e68eb9533fa49113a424a26806f7a31fd2d1c30ff55ce958e3ba273f8
+DEBUG[06-16|10:57:22.691] 47:[params/config.go->IsPangu] PanguBlock:0 num:6 flag:true 
+DEBUG[06-16|10:57:22.691] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:22.691] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:22.692] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:22.692] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:22.692] 67:[params/config.go->IsPangu] PanguBlock:0 num:7 flag:true 
+DEBUG[06-16|10:57:22.693] 67:[core/state_transition.go->ApplyMessage] msgHash [101 205 155 92 69 137 43 82 39 149 229 231 140 159 52 18 72 130 144 38 137 207 124 111 121 247 5 84 15 165 12 78] 
+DEBUG[06-16|10:57:22.693] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:22.693] 67:[params/config.go->IsPangu] PanguBlock:0 num:7 flag:true 
+DEBUG[06-16|10:57:22.693] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:22.693] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [101 205 155 92 69 137 43 82 39 149 229 231 140 159 52 18 72 130 144 38 137 207 124 111 121 247 5 84 15 165 12 78] 
+DEBUG[06-16|10:57:22.693] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:22.693] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:22.694] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:22.694] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:22.694] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:22.695] 67:Commit new mining work                number=7 txs=1 uncles=0 elapsed=2.823ms
+DEBUG[06-16|10:57:22.695] 1173:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:24.955] Generating DAG in progress               epoch=1 percentage=13 elapsed=51.767s
+DEBUG[06-16|10:57:26.184] 1118:No discv4 seed nodes found 
+INFO [06-16|10:57:27.292] 1174:Successfully sealed new block       number=7 hash=0x6917d5d4499c8ea00aff712043da823716bc9da490febad142b6f3a24b09a322
+DEBUG[06-16|10:57:27.293] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:27.293] 68:🔗 block reached canonical chain       number=2 hash=0xf8d859d1a9fdf9f46b82863cbe7bffb0e2b5f7151d069196f409dee890f205cd
+INFO [06-16|10:57:27.293] 68:🔨 mined potential block               number=7 hash=0x6917d5d4499c8ea00aff712043da823716bc9da490febad142b6f3a24b09a322
+DEBUG[06-16|10:57:27.294] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:27.294] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:27.294] 67:[params/config.go->IsPangu] PanguBlock:0 num:8 flag:true 
+DEBUG[06-16|10:57:27.294] 67:[core/state_transition.go->ApplyMessage] msgHash [69 209 185 146 122 58 210 210 117 124 229 69 34 164 169 76 68 47 209 5 248 58 148 28 195 15 58 135 211 180 180 216] 
+DEBUG[06-16|10:57:27.295] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:27.295] 67:[params/config.go->IsPangu] PanguBlock:0 num:8 flag:true 
+DEBUG[06-16|10:57:27.295] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:27.295] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [69 209 185 146 122 58 210 210 117 124 229 69 34 164 169 76 68 47 209 5 248 58 148 28 195 15 58 135 211 180 180 216] 
+DEBUG[06-16|10:57:27.295] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:27.295] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:27.296] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:27.296] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:27.296] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:27.296] 67:Commit new mining work                number=8 txs=1 uncles=0 elapsed=2.559ms
+DEBUG[06-16|10:57:27.297] 47:[params/config.go->IsPangu] PanguBlock:0 num:7 flag:true 
+DEBUG[06-16|10:57:27.297] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:27.297] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:27.297] 1202:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:27.916] 1203:Successfully sealed new block       number=8 hash=0x1559459708e389238c80ba29bfe28692b361ddf627950789dbeb2b138bd47480
+DEBUG[06-16|10:57:27.917] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:27.918] 68:🔗 block reached canonical chain       number=3 hash=0xcec318e0332d0e30e8934227cbe95564245e6d0ed4357cc89499a6f31fe53a9c
+INFO [06-16|10:57:27.918] 68:🔨 mined potential block               number=8 hash=0x1559459708e389238c80ba29bfe28692b361ddf627950789dbeb2b138bd47480
+DEBUG[06-16|10:57:27.918] 47:[params/config.go->IsPangu] PanguBlock:0 num:8 flag:true 
+DEBUG[06-16|10:57:27.918] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:27.918] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:27.918] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:27.919] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:27.919] 67:[params/config.go->IsPangu] PanguBlock:0 num:9 flag:true 
+DEBUG[06-16|10:57:27.919] 67:[core/state_transition.go->ApplyMessage] msgHash [126 12 63 21 39 84 232 217 170 150 208 188 140 255 46 34 210 203 57 153 119 201 150 67 63 238 37 142 161 163 214 182] 
+DEBUG[06-16|10:57:27.919] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:27.919] 67:[params/config.go->IsPangu] PanguBlock:0 num:9 flag:true 
+DEBUG[06-16|10:57:27.919] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:27.920] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [126 12 63 21 39 84 232 217 170 150 208 188 140 255 46 34 210 203 57 153 119 201 150 67 63 238 37 142 161 163 214 182] 
+DEBUG[06-16|10:57:27.920] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:27.920] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:27.920] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:27.920] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:27.920] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:27.921] 67:Commit new mining work                number=9 txs=1 uncles=0 elapsed=2.386ms
+DEBUG[06-16|10:57:27.921] 1181:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:27.926] 1182:Successfully sealed new block       number=9 hash=0xdba4aed510a0e5032f235b54d5b19de1f57ef94981aa218952e66d2cd34f81f5
+DEBUG[06-16|10:57:27.926] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:27.927] 68:🔗 block reached canonical chain       number=4 hash=0xc541bd8652790ae36ab4cbe3ebdba1ed043341082a93bd384b7eb317218cbfd6
+INFO [06-16|10:57:27.927] 68:🔨 mined potential block               number=9 hash=0xdba4aed510a0e5032f235b54d5b19de1f57ef94981aa218952e66d2cd34f81f5
+DEBUG[06-16|10:57:27.927] 67:worker.commitNewWork 
+INFO [06-16|10:57:27.927] 67:Mining too far in the future          wait=2s
+DEBUG[06-16|10:57:27.927] 47:[params/config.go->IsPangu] PanguBlock:0 num:9 flag:true 
+DEBUG[06-16|10:57:27.927] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:27.927] 47:addTxsLocked txs [] 
+INFO [06-16|10:57:28.254] Generating DAG in progress               epoch=1 percentage=14 elapsed=55.065s
+DEBUG[06-16|10:57:29.933] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:29.933] 67:[params/config.go->IsPangu] PanguBlock:0 num:10 flag:true 
+DEBUG[06-16|10:57:29.934] 67:[core/state_transition.go->ApplyMessage] msgHash [67 172 77 4 123 16 131 160 75 155 140 151 131 4 246 232 199 155 182 173 244 203 94 214 137 227 192 10 240 196 0 237] 
+DEBUG[06-16|10:57:29.934] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:29.934] 67:[params/config.go->IsPangu] PanguBlock:0 num:10 flag:true 
+DEBUG[06-16|10:57:29.934] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:29.934] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [67 172 77 4 123 16 131 160 75 155 140 151 131 4 246 232 199 155 182 173 244 203 94 214 137 227 192 10 240 196 0 237] 
+DEBUG[06-16|10:57:29.934] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:29.934] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:29.935] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:29.935] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:29.936] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:29.936] 67:Commit new mining work                number=10 txs=1 uncles=0 elapsed=2.008s
+DEBUG[06-16|10:57:29.936] 1220:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|10:57:30.098] 1131:No discv4 seed nodes found 
+INFO [06-16|10:57:30.275] Generating DAG in progress               epoch=1 percentage=15 elapsed=57.086s
+INFO [06-16|10:57:30.284] 1221:Successfully sealed new block       number=10 hash=0xb544a47a056b2f325217bed811ecfcf2a0c1c13cf0bc965c07a8b05369393ef3
+DEBUG[06-16|10:57:30.285] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:30.285] 68:🔗 block reached canonical chain       number=5  hash=0x2caa709a1e3b28c0b53b5d134f2758cad47aec59521083fb1bb6bf6169671e91
+INFO [06-16|10:57:30.286] 68:🔨 mined potential block               number=10 hash=0xb544a47a056b2f325217bed811ecfcf2a0c1c13cf0bc965c07a8b05369393ef3
+DEBUG[06-16|10:57:30.286] 47:[params/config.go->IsPangu] PanguBlock:0 num:10 flag:true 
+DEBUG[06-16|10:57:30.286] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:30.287] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:30.287] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:30.287] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:30.288] 67:[params/config.go->IsPangu] PanguBlock:0 num:11 flag:true 
+DEBUG[06-16|10:57:30.288] 67:[core/state_transition.go->ApplyMessage] msgHash [207 106 230 254 184 224 240 17 219 9 82 226 28 137 205 221 182 238 125 5 141 33 60 154 44 133 194 123 103 159 53 250] 
+DEBUG[06-16|10:57:30.288] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:30.289] 67:[params/config.go->IsPangu] PanguBlock:0 num:11 flag:true 
+DEBUG[06-16|10:57:30.289] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:30.289] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [207 106 230 254 184 224 240 17 219 9 82 226 28 137 205 221 182 238 125 5 141 33 60 154 44 133 194 123 103 159 53 250] 
+DEBUG[06-16|10:57:30.289] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:30.290] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:30.290] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:30.291] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:30.291] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:30.291] 67:Commit new mining work                number=11 txs=1 uncles=0 elapsed=4.197ms
+DEBUG[06-16|10:57:30.292] 1195:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:31.403] 1196:Successfully sealed new block       number=11 hash=0x897669d8439b2e8e8873f4e4465342f9e0b7c0502b73d3ebe3ca06a711e0b8e0
+DEBUG[06-16|10:57:31.403] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:31.404] 68:🔗 block reached canonical chain       number=6  hash=0x04484f2e68eb9533fa49113a424a26806f7a31fd2d1c30ff55ce958e3ba273f8
+INFO [06-16|10:57:31.404] 68:🔨 mined potential block               number=11 hash=0x897669d8439b2e8e8873f4e4465342f9e0b7c0502b73d3ebe3ca06a711e0b8e0
+DEBUG[06-16|10:57:31.404] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:31.404] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:31.404] 67:[params/config.go->IsPangu] PanguBlock:0 num:12 flag:true 
+DEBUG[06-16|10:57:31.404] 67:[core/state_transition.go->ApplyMessage] msgHash [35 112 218 225 151 162 169 10 125 94 93 39 46 187 237 135 83 97 214 224 253 105 38 119 181 47 240 189 1 129 220 158] 
+DEBUG[06-16|10:57:31.404] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:31.404] 67:[params/config.go->IsPangu] PanguBlock:0 num:12 flag:true 
+DEBUG[06-16|10:57:31.405] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:31.405] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [35 112 218 225 151 162 169 10 125 94 93 39 46 187 237 135 83 97 214 224 253 105 38 119 181 47 240 189 1 129 220 158] 
+DEBUG[06-16|10:57:31.405] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:31.405] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:31.405] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:31.405] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:31.405] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:31.405] 67:Commit new mining work                number=12 txs=1 uncles=0 elapsed=1.390ms
+DEBUG[06-16|10:57:31.405] 47:[params/config.go->IsPangu] PanguBlock:0 num:11 flag:true 
+DEBUG[06-16|10:57:31.405] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:31.406] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:31.406] 1227:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:33.971] Generating DAG in progress               epoch=1 percentage=16 elapsed=1m0.782s
+DEBUG[06-16|10:57:34.197] 1235:No discv4 seed nodes found 
+INFO [06-16|10:57:35.076] 1228:Successfully sealed new block       number=12 hash=0xea9f45e34f27701af820925f6efb6f5eafaa6ed68b9c895cc5ea7e5feab061d3
+DEBUG[06-16|10:57:35.093] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:35.094] 68:🔗 block reached canonical chain       number=7  hash=0x6917d5d4499c8ea00aff712043da823716bc9da490febad142b6f3a24b09a322
+INFO [06-16|10:57:35.094] 68:🔨 mined potential block               number=12 hash=0xea9f45e34f27701af820925f6efb6f5eafaa6ed68b9c895cc5ea7e5feab061d3
+DEBUG[06-16|10:57:35.094] 47:[params/config.go->IsPangu] PanguBlock:0 num:12 flag:true 
+DEBUG[06-16|10:57:35.094] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:35.094] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:35.094] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:35.095] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:35.095] 67:[params/config.go->IsPangu] PanguBlock:0 num:13 flag:true 
+DEBUG[06-16|10:57:35.095] 67:[core/state_transition.go->ApplyMessage] msgHash [154 63 62 210 188 35 15 24 244 107 237 165 196 71 134 54 161 21 74 63 105 170 13 213 228 168 7 79 198 195 48 167] 
+DEBUG[06-16|10:57:35.095] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:35.103] 67:[params/config.go->IsPangu] PanguBlock:0 num:13 flag:true 
+DEBUG[06-16|10:57:35.103] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:35.103] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [154 63 62 210 188 35 15 24 244 107 237 165 196 71 134 54 161 21 74 63 105 170 13 213 228 168 7 79 198 195 48 167] 
+DEBUG[06-16|10:57:35.103] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:35.103] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:35.104] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:35.104] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:35.104] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:35.104] 67:Commit new mining work                number=13 txs=1 uncles=0 elapsed=9.559ms
+DEBUG[06-16|10:57:35.104] 1255:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:36.246] 1256:Successfully sealed new block       number=13 hash=0x8a16ac8a35c90da695f2722d24bb6adf2667ce0565f0c71a1821deef6fe16176
+DEBUG[06-16|10:57:36.247] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:36.247] 68:🔗 block reached canonical chain       number=8  hash=0x1559459708e389238c80ba29bfe28692b361ddf627950789dbeb2b138bd47480
+INFO [06-16|10:57:36.247] 68:🔨 mined potential block               number=13 hash=0x8a16ac8a35c90da695f2722d24bb6adf2667ce0565f0c71a1821deef6fe16176
+DEBUG[06-16|10:57:36.247] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:36.247] 47:[params/config.go->IsPangu] PanguBlock:0 num:13 flag:true 
+DEBUG[06-16|10:57:36.248] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:36.248] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:36.248] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:36.248] 67:[params/config.go->IsPangu] PanguBlock:0 num:14 flag:true 
+DEBUG[06-16|10:57:36.248] 67:[core/state_transition.go->ApplyMessage] msgHash [235 210 196 202 218 133 239 234 238 65 99 254 98 160 120 199 252 252 16 38 61 87 213 224 82 77 21 171 53 91 233 57] 
+DEBUG[06-16|10:57:36.249] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:36.249] 67:[params/config.go->IsPangu] PanguBlock:0 num:14 flag:true 
+DEBUG[06-16|10:57:36.249] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:36.249] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [235 210 196 202 218 133 239 234 238 65 99 254 98 160 120 199 252 252 16 38 61 87 213 224 82 77 21 171 53 91 233 57] 
+DEBUG[06-16|10:57:36.249] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:36.249] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:36.250] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:36.250] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:36.250] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:36.250] 67:Commit new mining work                number=14 txs=1 uncles=0 elapsed=2.636ms
+DEBUG[06-16|10:57:36.250] 1237:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:37.605] 1238:Successfully sealed new block       number=14 hash=0x730f9e82558e0cb368ca8df0d9cbf9281fb09241c1f838a13b5297aeb9d0827e
+DEBUG[06-16|10:57:37.607] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:37.608] 68:🔗 block reached canonical chain       number=9  hash=0xdba4aed510a0e5032f235b54d5b19de1f57ef94981aa218952e66d2cd34f81f5
+INFO [06-16|10:57:37.609] 68:🔨 mined potential block               number=14 hash=0x730f9e82558e0cb368ca8df0d9cbf9281fb09241c1f838a13b5297aeb9d0827e
+DEBUG[06-16|10:57:37.609] 47:[params/config.go->IsPangu] PanguBlock:0 num:14 flag:true 
+DEBUG[06-16|10:57:37.609] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:37.609] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:37.610] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:37.610] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:37.610] 67:[params/config.go->IsPangu] PanguBlock:0 num:15 flag:true 
+DEBUG[06-16|10:57:37.611] 67:[core/state_transition.go->ApplyMessage] msgHash [140 221 6 164 100 211 219 73 255 117 24 61 89 188 100 78 207 221 134 21 110 255 218 153 141 71 98 25 207 142 25 161] 
+DEBUG[06-16|10:57:37.611] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:37.611] 67:[params/config.go->IsPangu] PanguBlock:0 num:15 flag:true 
+DEBUG[06-16|10:57:37.612] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:37.612] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [140 221 6 164 100 211 219 73 255 117 24 61 89 188 100 78 207 221 134 21 110 255 218 153 141 71 98 25 207 142 25 161] 
+DEBUG[06-16|10:57:37.612] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:37.612] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:37.613] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:37.613] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:37.613] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:37.614] 67:Commit new mining work                number=15 txs=1 uncles=0 elapsed=3.775ms
+DEBUG[06-16|10:57:37.614] 1133:[networkrelay/network_relay.go->NotifyScsFinalize]  
+INFO [06-16|10:57:37.680] Generating DAG in progress               epoch=1 percentage=17 elapsed=1m4.491s
+DEBUG[06-16|10:57:38.257] 1243:No discv4 seed nodes found 
+INFO [06-16|10:57:39.553] 1134:Successfully sealed new block       number=15 hash=0x9d38c6a8c5aed387bc4dc218bd21ca75d8272cc1bb9d057cab06716634c14e5a
+DEBUG[06-16|10:57:39.554] 68:Trie cache stats after commit         misses=8 unloads=0
+INFO [06-16|10:57:39.554] 68:🔗 block reached canonical chain       number=10 hash=0xb544a47a056b2f325217bed811ecfcf2a0c1c13cf0bc965c07a8b05369393ef3
+INFO [06-16|10:57:39.555] 68:🔨 mined potential block               number=15 hash=0x9d38c6a8c5aed387bc4dc218bd21ca75d8272cc1bb9d057cab06716634c14e5a
+DEBUG[06-16|10:57:39.555] 67:worker.commitNewWork 
+DEBUG[06-16|10:57:39.555] 67:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:57:39.556] 67:[params/config.go->IsPangu] PanguBlock:0 num:16 flag:true 
+DEBUG[06-16|10:57:39.556] 67:[core/state_transition.go->ApplyMessage] msgHash [147 85 232 226 206 171 156 90 143 241 202 220 124 250 122 128 202 252 251 238 70 3 205 155 165 38 5 63 181 221 169 55] 
+DEBUG[06-16|10:57:39.556] 67:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:57:39.557] 67:[params/config.go->IsPangu] PanguBlock:0 num:16 flag:true 
+DEBUG[06-16|10:57:39.557] 67:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420292b00 
+DEBUG[06-16|10:57:39.557] 67:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [147 85 232 226 206 171 156 90 143 241 202 220 124 250 122 128 202 252 251 238 70 3 205 155 165 38 5 63 181 221 169 55] 
+DEBUG[06-16|10:57:39.557] 67:RunPrecompiledContract 
+DEBUG[06-16|10:57:39.558] 67:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:57:39.558] 67:input c1c0e9c4 
+DEBUG[06-16|10:57:39.558] 67:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:57:39.559] 67:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|10:57:39.559] 67:Commit new mining work                number=16 txs=1 uncles=0 elapsed=3.952ms
+DEBUG[06-16|10:57:39.576] 47:[params/config.go->IsPangu] PanguBlock:0 num:15 flag:true 
+DEBUG[06-16|10:57:39.577] 1268:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|10:57:39.577] 47:Reinjecting stale transactions        count=0
+DEBUG[06-16|10:57:39.577] 47:addTxsLocked txs [] 
+DEBUG[06-16|10:57:41.179] 122:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:57:41.179] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:57:41.316] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+INFO [06-16|10:57:41.329] Generating DAG in progress               epoch=1 percentage=18 elapsed=1m8.140s
+DEBUG[06-16|10:57:41.337] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=157.962ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:57:41.454] 122:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:57:41.455] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:57:41.608] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:57:41.608] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=154.088ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:57:41.619] 122:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:57:41.641] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+INFO [06-16|10:57:41.752] 149:Got interrupt, shutting down... 
+DEBUG[06-16|10:57:41.760] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:57:41.760] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=141.585ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+INFO [06-16|10:57:41.776] 1287:IPC endpoint closed: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+DEBUG[06-16|10:57:41.776] 1287:RPC Server shutdown initiatied 
+DEBUG[06-16|10:57:41.776] 274:read error read unix /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc->: use of closed network connection
+ 
+INFO [06-16|10:57:41.777] 1287:Blockchain manager stopped 
+INFO [06-16|10:57:41.777] 1287:Stopping MoacNode protocol 
+INFO [06-16|10:57:41.778] 1287:MoacNode protocol stopped 
+INFO [06-16|10:57:41.778] 1287:Transaction pool stopped 
+INFO [06-16|10:57:41.781] Database closed                          database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata
+DEBUG[06-16|10:57:41.784] 120:Read error                           err="accept tcp [::]:30333: use of closed network connection"
+DEBUG[06-16|10:57:41.785] Deleting port mapping                    proto=tcp extport=30333 intport=30333 interface="UPNP IGDv2-IP2"
+DEBUG[06-16|10:57:41.793] 119:UDP read error                       err="read udp [::]:30333: use of closed network connection"
+DEBUG[06-16|10:57:41.793] Deleting port mapping                    proto=udp extport=30333 intport=30333 interface="UPNP IGDv2-IP2"
+DEBUG[06-16|10:57:41.793] 1305:No discv4 seed nodes found 
+DEBUG[06-16|10:58:13.682] 1:[cmd/moac/main.go->moac] about to call makeFullNode ctx 
+INFO [06-16|10:58:13.682] 52:[vnode/scsservices.go->VnodeServiceStart] 
+DEBUG[06-16|10:58:13.683] 52:load file /Users/hanwencheng/Documents/moac/vnode/vnodeconfig.json 
+DEBUG[06-16|10:58:13.686] 1:Reloaded keystore contents             accounts=1
+DEBUG[06-16|10:58:13.694] 52:try to listen to localhost:50062 
+DEBUG[06-16|10:58:13.694] 52:listen to localhost:50062 
+DEBUG[06-16|10:58:13.694] 1:Reloaded keystore contents             accounts=1
+DEBUG[06-16|10:58:13.694] 1:Register &{<nil> 8666 fast 0 20 false 1024 128 [88 174 193 245 45 196 254 220 188 65 129 224 163 133 250 164 103 84 101 99] 0 [] 18000000000 ethash 2 3 /Users/hanwencheng/.ethash 1 2 {false transactions.rlp 1h0m0s 1 10 16 40960 64 1024 3h0m0s} {10 50 <nil>} false  false false false} 
+INFO [06-16|10:58:13.696] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-16|10:58:13.696] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+DEBUG[06-16|10:58:13.709] 1:Empty genesis info 
+DEBUG[06-16|10:58:13.709] 1:configOrDefault:0x4359ff13fbfab88a89038532008081a090f4cab799cbdf45b7a49f6b0cf61e92
+ 
+DEBUG[06-16|10:58:13.710] 1:Initialized chain configuration {ChainID: 8666 Pangu: 0 Engine: unknown} 
+INFO [06-16|10:58:13.710] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-16|10:58:13.710] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-16|10:58:13.711] 1:Initializing MoacNode protocol         versions="[63 62]" network=8666
+DEBUG[06-16|10:58:13.711] 1:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-16|10:58:13.713] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:58:13.713] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:58:13.714] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:13.714] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:13.714] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:13.715] 1:[rlp/encode.go->makeWriter] typ.AssignableTo(bigInt) 
+INFO [06-16|10:58:13.715] 1:Loaded most recent local header        number=15 hash=0x9d38c6a8c5aed387bc4dc218bd21ca75d8272cc1bb9d057cab06716634c14e5a td=1972416
+INFO [06-16|10:58:13.715] 1:Loaded most recent local full block    number=15 hash=0x9d38c6a8c5aed387bc4dc218bd21ca75d8272cc1bb9d057cab06716634c14e5a td=1972416
+INFO [06-16|10:58:13.715] 1:Loaded most recent local fast block    number=15 hash=0x9d38c6a8c5aed387bc4dc218bd21ca75d8272cc1bb9d057cab06716634c14e5a td=1972416
+DEBUG[06-16|10:58:13.715] 1:[vnode/scsservices.go->NewScsService] 
+DEBUG[06-16|10:58:13.716] 1:Reinjecting stale transactions         count=0
+DEBUG[06-16|10:58:13.716] 1:addTxsLocked txs [] 
+DEBUG[06-16|10:58:13.716] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+INFO [06-16|10:58:13.716] 1:Loaded local transaction journal       transactions=0 dropped=0
+INFO [06-16|10:58:13.717] 1:Regenerated local transaction journal  transactions=0 accounts=0
+WARN [06-16|10:58:13.717] Blockchain not empty, fast sync disabled 
+DEBUG[06-16|10:58:13.717] 1:[mc/network_relay] NewNetworkRelay 
+DEBUG[06-16|10:58:13.717] 1:worker.commitNewWork 
+DEBUG[06-16|10:58:13.717] 69:[mc/network_relay] setupScsServersChannels 
+DEBUG[06-16|10:58:13.718] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:13.718] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:13.718] 1:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|10:58:13.718] 1:[params/config.go->IsPangu] PanguBlock:0 num:16 flag:true 
+DEBUG[06-16|10:58:13.719] 1:[core/state_transition.go->ApplyMessage] msgHash [147 85 232 226 206 171 156 90 143 241 202 220 124 250 122 128 202 252 251 238 70 3 205 155 165 38 5 63 181 221 169 55] 
+DEBUG[06-16|10:58:13.719] 1:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|10:58:13.719] 1:[params/config.go->IsPangu] PanguBlock:0 num:16 flag:true 
+DEBUG[06-16|10:58:13.719] 1:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc42028eb00 
+DEBUG[06-16|10:58:13.720] 1:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [147 85 232 226 206 171 156 90 143 241 202 220 124 250 122 128 202 252 251 238 70 3 205 155 165 38 5 63 181 221 169 55] 
+DEBUG[06-16|10:58:13.720] 1:RunPrecompiledContract 
+DEBUG[06-16|10:58:13.720] 1:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|10:58:13.721] 1:input c1c0e9c4 
+DEBUG[06-16|10:58:13.721] 1:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|10:58:13.722] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-16|10:58:13.722] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:58:13.722] 1:[consensus/ethash/consensus.go->Finalize] 
+DEBUG[06-16|10:58:13.724] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-16|10:58:13.724] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:13.724] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:13.724] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-16|10:58:13.725] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:58:13.725] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-16|10:58:13.725] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:58:13.725] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-16|10:58:13.726] 73:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|10:58:13.726] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:58:13.727] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:58:13.727] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:58:13.727] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:13.727] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:13.727] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-16|10:58:13.727] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:58:13.728] 1:[rlp/encode.go->makeWriter] reflect.String 
+INFO [06-16|10:58:13.729] 1:Starting P2P networking 
+DEBUG[06-16|10:58:14.649] 54:Reloaded keystore contents            accounts=1
+DEBUG[06-16|10:58:15.874] nat.go line109:Couldn't add port mapping proto=udp extport=30333 intport=30333 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+INFO [06-16|10:58:15.889] 1:UDP listener up                        self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+INFO [06-16|10:58:15.890] 103:RLPx listener up                     self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+DEBUG[06-16|10:58:15.897] 1:InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[06-16|10:58:15.897] 1:InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[06-16|10:58:15.898] 1:InProc registered *debug.HandlerT under 'debug' 
+DEBUG[06-16|10:58:15.898] 1:InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[06-16|10:58:15.898] 1:InProc registered *node.PublicChain3API under 'chain3' 
+DEBUG[06-16|10:58:15.898] 1:InProc registered *mcapi.PublicMoacAPI under 'mc' 
+DEBUG[06-16|10:58:15.899] 1:InProc registered *mcapi.PublicBlockChainAPI under 'mc' 
+DEBUG[06-16|10:58:15.899] 1:InProc registered *mcapi.PublicTransactionPoolAPI under 'mc' 
+DEBUG[06-16|10:58:15.899] 1:InProc registered *mcapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[06-16|10:58:15.899] 1:InProc registered *mcapi.PublicDebugAPI under 'debug' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *mcapi.PrivateDebugAPI under 'debug' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *mcapi.PublicAccountAPI under 'mc' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *mcapi.PrivateAccountAPI under 'personal' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *mc.PublicMoacAPI under 'mc' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *mc.PublicMinerAPI under 'mc' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *downloader.PublicDownloaderAPI under 'mc' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *mc.PrivateMinerAPI under 'miner' 
+DEBUG[06-16|10:58:15.900] 1:InProc registered *filters.PublicFilterAPI under 'mc' 
+DEBUG[06-16|10:58:15.901] 1:InProc registered *mc.PrivateAdminAPI under 'admin' 
+DEBUG[06-16|10:58:15.901] 1:InProc registered *mc.PublicDebugAPI under 'debug' 
+DEBUG[06-16|10:58:15.901] 1:InProc registered *mc.PrivateDebugAPI under 'debug' 
+DEBUG[06-16|10:58:15.901] 1:InProc registered *mcapi.PublicNetAPI under 'net' 
+INFO [06-16|10:58:15.901] 1:[node/node.go->Node.startIPC] 
+INFO [06-16|10:58:15.902] 131:IPC endpoint opened: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-16|10:58:15.902] 133:[rpc/inproc.go->DialInProc] 
+DEBUG[06-16|10:58:15.905] nat.go line109:Couldn't add port mapping proto=tcp extport=30333 intport=30333 interface="UPNP IGDv1-IP1" err="goupnp: SOAP request got HTTP 500 Internal Server Error"
+DEBUG[06-16|10:58:15.910] 84:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:15.910] 84:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:15.910] 84:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:16.416] 83:No discv4 seed nodes found 
+INFO [06-16|10:58:19.568] 131:[node/node.go->Node.startIPC call ServeCodec] 
+DEBUG[06-16|10:58:19.693] 93:[mc/backend.go->MoacNode.Moacbase] 
+DEBUG[06-16|10:58:19.707] 137:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|10:58:19.707] 137:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:20.420] 96:No discv4 seed nodes found 
+DEBUG[06-16|10:58:24.425] 150:No discv4 seed nodes found 
+DEBUG[06-16|10:58:28.434] 158:No discv4 seed nodes found 
+DEBUG[06-16|10:58:32.433] 33:No discv4 seed nodes found 
+DEBUG[06-16|10:58:36.442] 184:No discv4 seed nodes found 
+DEBUG[06-16|10:58:40.444] 43:No discv4 seed nodes found 
+DEBUG[06-16|10:58:40.851] 166:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-16|10:58:40.851] 166:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-16|10:58:40.851] 166:[rlp/encode.go->makeWriter] reflect.Array 
+DEBUG[06-16|10:58:40.852] 166:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:40.852] 166:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:41.041] 49:NTP sanity check done                 drift=-3.712727ms
+DEBUG[06-16|10:58:41.426] 195:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:41.427] 197:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:41.427] 197:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:58:41.427] 197:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:41.427] 197:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:41.428] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-... addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:58:41.428] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:58:41.428] 145:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-16|10:58:41.429] 145:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|10:58:41.429] 145:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|10:58:41.552] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:58:41.552] 141:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-16|10:58:41.553] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=124.808ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:58:41.683] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:58:41.683] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:58:41.808] 170:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|10:58:41.808] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:58:41.808] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=125.689ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:58:41.811] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|10:58:41.811] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:58:41.936] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:58:41.936] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=125.819ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:58:44.450] 201:No discv4 seed nodes found 
+DEBUG[06-16|10:58:48.448] 176:No discv4 seed nodes found 
+DEBUG[06-16|10:58:52.476] 230:No discv4 seed nodes found 
+DEBUG[06-16|10:58:56.451] 213:No discv4 seed nodes found 
+DEBUG[06-16|10:59:00.454] 236:No discv4 seed nodes found 
+DEBUG[06-16|10:59:04.451] 209:No discv4 seed nodes found 
+DEBUG[06-16|10:59:08.459] 221:No discv4 seed nodes found 
+DEBUG[06-16|10:59:12.460] 250:No discv4 seed nodes found 
+DEBUG[06-16|10:59:12.717] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:59:12.718] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:59:12.844] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:59:12.844] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=126.558ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:59:12.975] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:59:12.975] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:59:13.097] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|10:59:13.098] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:59:13.101] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|10:59:13.101] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=126.381ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|10:59:13.224] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:59:13.225] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=127.309ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:59:16.466] 301:No discv4 seed nodes found 
+DEBUG[06-16|10:59:20.477] 267:No discv4 seed nodes found 
+DEBUG[06-16|10:59:24.482] 280:No discv4 seed nodes found 
+DEBUG[06-16|10:59:28.488] 340:No discv4 seed nodes found 
+DEBUG[06-16|10:59:32.485] 320:No discv4 seed nodes found 
+DEBUG[06-16|10:59:36.492] 346:No discv4 seed nodes found 
+DEBUG[06-16|10:59:40.498] 359:No discv4 seed nodes found 
+DEBUG[06-16|10:59:44.498] 326:No discv4 seed nodes found 
+DEBUG[06-16|10:59:48.508] 370:No discv4 seed nodes found 
+DEBUG[06-16|10:59:48.762] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|10:59:48.763] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:59:48.888] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|10:59:48.888] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=125.588ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:59:49.020] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|10:59:49.020] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:59:49.142] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|10:59:49.143] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|10:59:49.144] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:59:49.145] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=125.417ms peers=1 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|10:59:49.268] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|10:59:49.269] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=126.213ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|10:59:52.501] 411:No discv4 seed nodes found 
+DEBUG[06-16|10:59:56.511] 378:No discv4 seed nodes found 
+DEBUG[06-16|11:00:00.511] 393:No discv4 seed nodes found 
+DEBUG[06-16|11:00:04.511] 419:No discv4 seed nodes found 
+DEBUG[06-16|11:00:08.519] 425:No discv4 seed nodes found 
+DEBUG[06-16|11:00:12.519] 434:No discv4 seed nodes found 
+DEBUG[06-16|11:00:16.548] 432:No discv4 seed nodes found 
+DEBUG[06-16|11:00:20.538] 451:No discv4 seed nodes found 
+DEBUG[06-16|11:00:24.536] 441:No discv4 seed nodes found 
+DEBUG[06-16|11:00:25.691] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:00:25.691] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:00:25.817] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|11:00:25.817] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=125.933ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:00:25.947] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:00:25.947] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+INFO [06-16|11:00:26.037] 505:Transaction pool price threshold updated price=18000000000
+DEBUG[06-16|11:00:26.037] 505:[mc/backend.go->MoacNode.Moacbase] 
+INFO [06-16|11:00:26.038] 506:Starting mining operation 
+DEBUG[06-16|11:00:26.038] 506:worker.commitNewWork 
+DEBUG[06-16|11:00:26.038] 506:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|11:00:26.038] 506:[params/config.go->IsPangu] PanguBlock:0 num:16 flag:true 
+DEBUG[06-16|11:00:26.039] 506:[core/state_transition.go->ApplyMessage] msgHash [147 85 232 226 206 171 156 90 143 241 202 220 124 250 122 128 202 252 251 238 70 3 205 155 165 38 5 63 181 221 169 55] 
+DEBUG[06-16|11:00:26.039] 506:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|11:00:26.039] 506:[params/config.go->IsPangu] PanguBlock:0 num:16 flag:true 
+DEBUG[06-16|11:00:26.039] 506:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc42028eb00 
+DEBUG[06-16|11:00:26.039] 506:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [147 85 232 226 206 171 156 90 143 241 202 220 124 250 122 128 202 252 251 238 70 3 205 155 165 38 5 63 181 221 169 55] 
+DEBUG[06-16|11:00:26.039] 506:RunPrecompiledContract 
+DEBUG[06-16|11:00:26.039] 506:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|11:00:26.040] 506:input c1c0e9c4 
+DEBUG[06-16|11:00:26.040] 506:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|11:00:26.040] 506:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|11:00:26.040] 506:Commit new mining work               number=16 txs=1 uncles=0 elapsed=2.398ms
+DEBUG[06-16|11:00:26.040] 510:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|11:00:26.059] Loaded old ethash dataset from disk      epoch=0
+DEBUG[06-16|11:00:26.059] Failed to load old ethash dataset        epoch=1 err="open /Users/hanwencheng/.ethash/full-R23-290decd9548b62a8: no such file or directory"
+DEBUG[06-16|11:00:26.076] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|11:00:26.076] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=129.779ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:00:26.077] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|11:00:26.077] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:00:26.210] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|11:00:26.211] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=134.261ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:00:28.131] Generated ethash verification cache      epoch=1 elapsed=2.070s
+ERROR[06-16|11:00:28.132] Failed to generate mapped ethash dataset epoch=1 err="truncate /Users/hanwencheng/.ethash/full-R23-290decd9548b62a8.5334348810658231531: no space left on device"
+DEBUG[06-16|11:00:28.702] 536:No discv4 seed nodes found 
+DEBUG[06-16|11:00:32.754] 488:No discv4 seed nodes found 
+INFO [06-16|11:00:35.309] 511:Successfully sealed new block        number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46
+DEBUG[06-16|11:00:35.325] 71:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|11:00:35.325] 71:Trie cache stats after commit         misses=11 unloads=0
+DEBUG[06-16|11:00:35.325] 71:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|11:00:35.325] 71:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|11:00:35.326] 71:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|11:00:35.326] 71:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|11:00:35.326] 71:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|11:00:35.326] 71:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|11:00:35.326] 71:[rlp/encode.go->makeWriter] reflect.Struct 
+INFO [06-16|11:00:35.326] 71:🔨 mined potential block               number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46
+DEBUG[06-16|11:00:35.326] 70:worker.commitNewWork 
+DEBUG[06-16|11:00:35.329] 70:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|11:00:35.329] 70:[params/config.go->IsPangu] PanguBlock:0 num:17 flag:true 
+DEBUG[06-16|11:00:35.331] 70:[core/state_transition.go->ApplyMessage] msgHash [111 235 13 96 40 39 13 217 114 176 244 36 142 86 69 251 111 240 66 24 15 104 192 188 94 83 158 111 232 171 70 115] 
+DEBUG[06-16|11:00:35.332] 70:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|11:00:35.332] 70:[params/config.go->IsPangu] PanguBlock:0 num:17 flag:true 
+DEBUG[06-16|11:00:35.333] 70:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc42028eb00 
+DEBUG[06-16|11:00:35.333] 70:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [111 235 13 96 40 39 13 217 114 176 244 36 142 86 69 251 111 240 66 24 15 104 192 188 94 83 158 111 232 171 70 115] 
+DEBUG[06-16|11:00:35.333] 70:RunPrecompiledContract 
+DEBUG[06-16|11:00:35.349] 70:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|11:00:35.350] 70:input c1c0e9c4 
+DEBUG[06-16|11:00:35.350] 70:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|11:00:35.350] 70:[consensus/ethash/consensus.go->Finalize] 
+INFO [06-16|11:00:35.350] 70:Commit new mining work                number=17 txs=1 uncles=0 elapsed=23.657ms
+DEBUG[06-16|11:00:35.350] 520:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|11:00:35.361] 66:[params/config.go->IsPangu] PanguBlock:0 num:16 flag:true 
+DEBUG[06-16|11:00:35.361] 66:Reinjecting stale transactions        count=0
+DEBUG[06-16|11:00:35.362] 66:addTxsLocked txs [] 
+INFO [06-16|11:00:36.813] Generating DAG in progress               epoch=1 percentage=0 elapsed=8.568s
+DEBUG[06-16|11:00:36.854] 527:No discv4 seed nodes found 
+DEBUG[06-16|11:00:40.956] 528:No discv4 seed nodes found 
+DEBUG[06-16|11:00:44.899] 558:No discv4 seed nodes found 
+INFO [06-16|11:00:46.837] Generating DAG in progress               epoch=1 percentage=1 elapsed=18.591s
+DEBUG[06-16|11:00:48.859] 491:No discv4 seed nodes found 
+DEBUG[06-16|11:00:52.905] 560:No discv4 seed nodes found 
+INFO [06-16|11:00:54.935] Generating DAG in progress               epoch=1 percentage=2 elapsed=26.689s
+DEBUG[06-16|11:00:56.941] 561:No discv4 seed nodes found 
+DEBUG[06-16|11:00:57.267] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:00:57.267] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:00:57.404] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|11:00:57.424] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=157.510ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:00:57.564] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:00:57.564] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:00:57.711] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|11:00:57.725] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:00:57.726] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=161.599ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|11:00:57.731] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:00:57.841] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:00:57.841] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=129.982ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:01:01.027] 606:No discv4 seed nodes found 
+INFO [06-16|11:01:03.165] Generating DAG in progress               epoch=1 percentage=3 elapsed=34.919s
+DEBUG[06-16|11:01:04.952] 607:No discv4 seed nodes found 
+DEBUG[06-16|11:01:09.078] 494:No discv4 seed nodes found 
+INFO [06-16|11:01:11.260] Generating DAG in progress               epoch=1 percentage=4 elapsed=43.014s
+DEBUG[06-16|11:01:13.080] 633:No discv4 seed nodes found 
+DEBUG[06-16|11:01:17.088] 646:No discv4 seed nodes found 
+INFO [06-16|11:01:21.083] Generating DAG in progress               epoch=1 percentage=5 elapsed=52.836s
+DEBUG[06-16|11:01:21.474] 640:No discv4 seed nodes found 
+DEBUG[06-16|11:01:25.218] 674:No discv4 seed nodes found 
+DEBUG[06-16|11:01:29.346] 690:No discv4 seed nodes found 
+DEBUG[06-16|11:01:30.430] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:01:30.430] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:01:30.572] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|11:01:30.592] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=162.770ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:01:30.689] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:01:30.707] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:01:30.897] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|11:01:30.913] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:01:30.916] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:01:30.916] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=226.747ms peers=1 req=true  err="subprotocol error"
+INFO [06-16|11:01:31.034] Generating DAG in progress               epoch=1 percentage=6 elapsed=1m2.788s
+DEBUG[06-16|11:01:31.045] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:01:31.045] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=148.360ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:01:33.387] 724:No discv4 seed nodes found 
+DEBUG[06-16|11:01:37.326] 725:No discv4 seed nodes found 
+INFO [06-16|11:01:40.515] Generating DAG in progress               epoch=1 percentage=7 elapsed=1m12.268s
+DEBUG[06-16|11:01:41.628] 738:No discv4 seed nodes found 
+DEBUG[06-16|11:01:45.390] 713:No discv4 seed nodes found 
+DEBUG[06-16|11:01:49.384] 745:No discv4 seed nodes found 
+INFO [06-16|11:01:50.436] Generating DAG in progress               epoch=1 percentage=8 elapsed=1m22.189s
+DEBUG[06-16|11:01:53.535] 747:No discv4 seed nodes found 
+DEBUG[06-16|11:02:09.679] 758:No discv4 seed nodes found 
+DEBUG[06-16|11:02:14.549] 786:No discv4 seed nodes found 
+DEBUG[06-16|11:02:19.555] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|11:02:19.731] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=2
+DEBUG[06-16|11:02:20.007] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:02:20.086] 760:No discv4 seed nodes found 
+DEBUG[06-16|11:02:20.058] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:02:20.538] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|11:02:20.884] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=1.141s    peers=1 req=false err="read tcp 192.168.178.35:62810->18.217.97.151:30333: read: connection reset by peer"
+DEBUG[06-16|11:02:20.903] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:02:21.543] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=2.638s    peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:02:21.998] 813:No discv4 seed nodes found 
+DEBUG[06-16|11:02:22.359] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:02:22.371] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:02:22.567] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:02:22.567] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=208.158ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|11:02:25.041] Generating DAG in progress               epoch=1 percentage=9 elapsed=1m56.793s
+DEBUG[06-16|11:02:27.073] 765:No discv4 seed nodes found 
+DEBUG[06-16|11:02:29.427] 817:No discv4 seed nodes found 
+DEBUG[06-16|11:02:35.754] 731:No discv4 seed nodes found 
+DEBUG[06-16|11:02:37.792] 768:No discv4 seed nodes found 
+DEBUG[06-16|11:02:41.793] 850:No discv4 seed nodes found 
+INFO [06-16|11:02:43.873] Generating DAG in progress               epoch=1 percentage=10 elapsed=2m15.624s
+DEBUG[06-16|11:02:46.490] 769:No discv4 seed nodes found 
+DEBUG[06-16|11:02:50.124] 877:No discv4 seed nodes found 
+DEBUG[06-16|11:02:50.447] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:02:50.451] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:02:50.633] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:02:50.634] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=186.831ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:02:50.727] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|11:02:50.728] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:02:50.875] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|11:02:50.890] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=162.366ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:02:54.047] 898:No discv4 seed nodes found 
+INFO [06-16|11:02:54.642] Generating DAG in progress               epoch=1 percentage=11 elapsed=2m26.393s
+DEBUG[06-16|11:02:58.153] 900:No discv4 seed nodes found 
+DEBUG[06-16|11:03:02.192] 915:No discv4 seed nodes found 
+INFO [06-16|11:03:04.090] Generating DAG in progress               epoch=1 percentage=12 elapsed=2m35.841s
+DEBUG[06-16|11:03:06.158] 907:No discv4 seed nodes found 
+DEBUG[06-16|11:03:06.511] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:03:06.511] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:03:06.680] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|11:03:06.683] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=172.502ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:03:10.322] 924:No discv4 seed nodes found 
+DEBUG[06-16|11:03:15.026] 949:No discv4 seed nodes found 
+INFO [06-16|11:03:15.128] Generating DAG in progress               epoch=1 percentage=13 elapsed=2m46.878s
+DEBUG[06-16|11:03:18.563] 891:No discv4 seed nodes found 
+DEBUG[06-16|11:03:22.767] 892:No discv4 seed nodes found 
+DEBUG[06-16|11:03:23.112] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:03:23.112] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:03:23.281] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:03:23.282] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=169.649ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:03:23.408] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|11:03:23.409] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:03:23.593] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:03:23.593] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=185.237ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|11:03:24.519] Generating DAG in progress               epoch=1 percentage=14 elapsed=2m56.268s
+DEBUG[06-16|11:03:26.951] 951:No discv4 seed nodes found 
+DEBUG[06-16|11:03:31.337] 987:No discv4 seed nodes found 
+DEBUG[06-16|11:03:34.705] 989:No discv4 seed nodes found 
+INFO [06-16|11:03:36.425] Generating DAG in progress               epoch=1 percentage=15 elapsed=3m8.174s
+DEBUG[06-16|11:03:38.696] 990:No discv4 seed nodes found 
+DEBUG[06-16|11:03:42.903] 1010:No discv4 seed nodes found 
+DEBUG[06-16|11:03:46.889] 955:No discv4 seed nodes found 
+INFO [06-16|11:03:47.164] Generating DAG in progress               epoch=1 percentage=16 elapsed=3m18.913s
+DEBUG[06-16|11:03:51.000] 1023:No discv4 seed nodes found 
+DEBUG[06-16|11:03:55.086] 1042:No discv4 seed nodes found 
+DEBUG[06-16|11:03:56.542] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:03:56.544] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:03:57.067] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:03:57.067] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=525.468ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:03:57.230] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:03:57.231] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:03:57.388] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|11:03:57.432] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err=EOF
+DEBUG[06-16|11:03:57.433] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=202.360ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|11:03:57.454] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:03:57.552] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:03:57.552] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=164.121ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+INFO [06-16|11:03:58.323] Generating DAG in progress               epoch=1 percentage=17 elapsed=3m30.072s
+DEBUG[06-16|11:03:59.019] 1065:No discv4 seed nodes found 
+DEBUG[06-16|11:04:02.891] 1044:No discv4 seed nodes found 
+DEBUG[06-16|11:04:06.938] 1046:No discv4 seed nodes found 
+INFO [06-16|11:04:09.086] Generating DAG in progress               epoch=1 percentage=18 elapsed=3m40.834s
+DEBUG[06-16|11:04:10.796] 1098:No discv4 seed nodes found 
+DEBUG[06-16|11:04:14.859] 1100:No discv4 seed nodes found 
+INFO [06-16|11:04:18.718] Generating DAG in progress               epoch=1 percentage=19 elapsed=3m50.466s
+DEBUG[06-16|11:04:19.190] 1071:No discv4 seed nodes found 
+DEBUG[06-16|11:04:23.053] 1050:No discv4 seed nodes found 
+DEBUG[06-16|11:04:27.090] 1072:No discv4 seed nodes found 
+INFO [06-16|11:04:29.073] Generating DAG in progress               epoch=1 percentage=20 elapsed=4m0.820s
+DEBUG[06-16|11:04:31.122] 1073:No discv4 seed nodes found 
+DEBUG[06-16|11:04:31.525] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:04:31.531] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:04:31.648] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:04:31.725] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=211.371ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:04:31.878] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:04:31.894] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:04:32.063] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=2
+DEBUG[06-16|11:04:32.063] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:04:32.075] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:04:32.077] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=199.328ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|11:04:32.214] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|11:04:32.215] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=152.777ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:04:35.250] 1186:No discv4 seed nodes found 
+INFO [06-16|11:04:38.833] Generating DAG in progress               epoch=1 percentage=21 elapsed=4m10.580s
+DEBUG[06-16|11:04:39.285] 1187:No discv4 seed nodes found 
+DEBUG[06-16|11:04:43.243] 1165:No discv4 seed nodes found 
+DEBUG[06-16|11:04:47.329] 1167:No discv4 seed nodes found 
+INFO [06-16|11:04:47.933] Generating DAG in progress               epoch=1 percentage=22 elapsed=4m19.680s
+DEBUG[06-16|11:04:51.233] 1126:No discv4 seed nodes found 
+DEBUG[06-16|11:04:55.443] 1228:No discv4 seed nodes found 
+INFO [06-16|11:04:57.371] Generating DAG in progress               epoch=1 percentage=23 elapsed=4m29.118s
+DEBUG[06-16|11:04:59.383] 1132:No discv4 seed nodes found 
+DEBUG[06-16|11:05:03.415] 1133:No discv4 seed nodes found 
+DEBUG[06-16|11:05:07.559] 1241:No discv4 seed nodes found 
+DEBUG[06-16|11:05:07.982] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:05:08.051] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:05:08.168] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:05:08.189] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=207.218ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:05:08.260] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:05:08.278] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:05:08.435] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:05:08.435] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=175.832ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:05:08.665] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|11:05:08.667] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:05:08.861] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|11:05:08.861] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=196.242ms peers=0 req=true  err="subprotocol error"
+INFO [06-16|11:05:09.061] Generating DAG in progress               epoch=1 percentage=24 elapsed=4m40.807s
+DEBUG[06-16|11:05:12.020] 1194:No discv4 seed nodes found 
+DEBUG[06-16|11:05:15.857] 1215:No discv4 seed nodes found 
+DEBUG[06-16|11:05:20.085] 1286:No discv4 seed nodes found 
+INFO [06-16|11:05:20.472] Generating DAG in progress               epoch=1 percentage=25 elapsed=4m52.218s
+DEBUG[06-16|11:05:24.038] 1268:No discv4 seed nodes found 
+DEBUG[06-16|11:05:28.083] 1303:No discv4 seed nodes found 
+INFO [06-16|11:05:30.626] Generating DAG in progress               epoch=1 percentage=26 elapsed=5m2.372s
+DEBUG[06-16|11:05:32.038] 1269:No discv4 seed nodes found 
+DEBUG[06-16|11:05:36.121] 1318:No discv4 seed nodes found 
+DEBUG[06-16|11:05:40.222] 1309:No discv4 seed nodes found 
+INFO [06-16|11:05:40.626] Generating DAG in progress               epoch=1 percentage=27 elapsed=5m12.372s
+DEBUG[06-16|11:05:40.648] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:05:40.653] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:05:40.880] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=2
+DEBUG[06-16|11:05:40.880] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:05:40.884] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err=EOF
+DEBUG[06-16|11:05:40.908] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=257.474ms peers=1 req=true  err="subprotocol error"
+DEBUG[06-16|11:05:41.079] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:05:41.082] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=201.960ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:05:41.420] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|11:05:41.426] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:05:41.588] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:05:41.589] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=169.193ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:05:44.179] 1322:No discv4 seed nodes found 
+DEBUG[06-16|11:05:50.516] 1356:No discv4 seed nodes found 
+DEBUG[06-16|11:05:52.246] 1383:No discv4 seed nodes found 
+INFO [06-16|11:05:52.681] Generating DAG in progress               epoch=1 percentage=28 elapsed=5m24.426s
+DEBUG[06-16|11:05:56.429] 1367:No discv4 seed nodes found 
+DEBUG[06-16|11:06:00.428] 1373:No discv4 seed nodes found 
+INFO [06-16|11:06:03.631] Generating DAG in progress               epoch=1 percentage=29 elapsed=5m35.376s
+DEBUG[06-16|11:06:04.398] 1360:No discv4 seed nodes found 
+DEBUG[06-16|11:06:08.569] 1410:No discv4 seed nodes found 
+DEBUG[06-16|11:06:12.966] 1407:No discv4 seed nodes found 
+DEBUG[06-16|11:06:14.888] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:06:14.889] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:06:15.041] MoacNode handshake failed                id=56d1df4beff7834f conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:06:15.045] Removing p2p peer                        id=56d1df4beff7834f conn=dyndial duration=153.890ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:06:15.173] 105:Adding p2p peer                      id=e3a5b39ad5019543 name=Moac/v0.8.2-release-...                         addr=18.217.97.151:30333 peers=1
+DEBUG[06-16|11:06:15.196] MoacNode Peer connected                  id=e3a5b39ad5019543 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+DEBUG[06-16|11:06:15.322] MoacNode handshake failed                id=e3a5b39ad5019543 conn=dyndial err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:06:15.495] Removing p2p peer                        id=e3a5b39ad5019543 conn=dyndial duration=322.228ms peers=0 req=false err="Genesis block mismatch - 6b9661646439fab9 (!= 4359ff13fbfab88a)"
+DEBUG[06-16|11:06:15.515] 105:Adding p2p peer                      id=3f4eb607c1105b84 name=Moac/v0.8.2-release-...                         addr=52.15.143.41:30333  peers=1
+DEBUG[06-16|11:06:15.515] MoacNode Peer connected                  id=3f4eb607c1105b84 conn=dyndial name=Moac/v0.8.2-release-6a3ad4d2/linux-amd64/go1.10
+INFO [06-16|11:06:15.695] Generating DAG in progress               epoch=1 percentage=30 elapsed=5m47.440s
+DEBUG[06-16|11:06:15.706] MoacNode handshake failed                id=3f4eb607c1105b84 conn=dyndial err=EOF
+DEBUG[06-16|11:06:15.728] Removing p2p peer                        id=3f4eb607c1105b84 conn=dyndial duration=212.881ms peers=0 req=true  err="subprotocol error"
+DEBUG[06-16|11:06:16.829] 1444:No discv4 seed nodes found 
+DEBUG[06-16|11:06:20.693] 1420:No discv4 seed nodes found 
+DEBUG[06-16|11:06:25.049] 1450:No discv4 seed nodes found 
+INFO [06-16|11:06:26.629] Generating DAG in progress               epoch=1 percentage=31 elapsed=5m58.374s
+DEBUG[06-16|11:06:29.060] 1325:No discv4 seed nodes found 
+DEBUG[06-16|11:06:32.808] 1451:No discv4 seed nodes found 
+DEBUG[06-16|11:06:37.110] 1506:No discv4 seed nodes found 
+INFO [06-16|11:06:38.235] Generating DAG in progress               epoch=1 percentage=32 elapsed=6m9.979s
+DEBUG[06-16|11:06:41.016] 1507:No discv4 seed nodes found 
+DEBUG[06-16|11:06:45.023] 1513:No discv4 seed nodes found 
+DEBUG[06-16|11:06:45.353] 105:Adding p2p peer                      id=56d1df4beff7834f name=Moac/v0.8.2-release-...                         addr=18.217.180.94:30333 peers=1
+DEBUG[06-16|11:06:45.353] MoacNode Peer connected                  id=56d1df4beff7834f conn=dyndial name=Moac/v0.8DEBUG[06-16|11:19:02.232] 1:[cmd/moac/main.go->moac] about to call makeFullNode ctx 
+DEBUG[06-16|11:19:02.234] 7:load file /Users/hanwencheng/Documents/moac/vnode/vnodeconfig.json 
+DEBUG[06-16|11:19:02.237] 1:Reloaded keystore contents             accounts=1
+DEBUG[06-16|11:19:02.242] 7:try to listen to localhost:50062 
+DEBUG[06-16|11:19:02.242] 7:listen to localhost:50062 
+DEBUG[06-16|11:19:02.244] 1:Reloaded keystore contents             accounts=1
+DEBUG[06-16|11:19:02.246] 1:Register &{<nil> 8666 fast 0 20 false 1024 128 [88 174 193 245 45 196 254 220 188 65 129 224 163 133 250 164 103 84 101 99] 0 [] 18000000000 ethash 2 3 /Users/hanwencheng/.ethash 1 2 {false transactions.rlp 1h0m0s 1 10 16 40960 64 1024 3h0m0s} {10 50 <nil>} false  false false false} 
+INFO [06-16|11:19:02.248] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-16|11:19:02.249] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+DEBUG[06-16|11:19:02.266] 1:Empty genesis info 
+DEBUG[06-16|11:19:02.266] 1:configOrDefault:0x4359ff13fbfab88a89038532008081a090f4cab799cbdf45b7a49f6b0cf61e92
+ 
+DEBUG[06-16|11:19:02.266] 1:Initialized chain configuration {ChainID: 8666 Pangu: 0 Engine: unknown} 
+INFO [06-16|11:19:02.267] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-16|11:19:02.267] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-16|11:19:02.267] 1:Initializing MoacNode protocol         versions="[63 62]" network=8666
+DEBUG[06-16|11:19:02.267] 1:[rlp/encode.go->makeWriter] isUint(kind) 
+DEBUG[06-16|11:19:02.269] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|11:19:02.269] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|11:19:02.270] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|11:19:02.270] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|11:19:02.270] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|11:19:02.271] 1:[rlp/encode.go->makeWriter] typ.AssignableTo(bigInt) 
+INFO [06-16|11:19:02.271] 1:Loaded most recent local header        number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|11:19:02.271] 1:Loaded most recent local full block    number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|11:19:02.271] 1:Loaded most recent local fast block    number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+DEBUG[06-16|11:19:02.272] 1:[vnode/scsservices.go->NewScsService] 
+DEBUG[06-16|11:19:02.272] 1:Reinjecting stale transactions         count=0
+DEBUG[06-16|11:19:02.272] 1:addTxsLocked txs [] 
+DEBUG[06-16|11:19:02.273] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+INFO [06-16|11:19:02.273] 1:Loaded local transaction journal       transactions=0 dropped=0
+INFO [06-16|11:19:02.273] 1:Regenerated local transaction journal  transactions=0 accounts=0
+WARN [06-16|11:19:02.273] Blockchain not empty, fast sync disabled 
+DEBUG[06-16|11:19:02.274] 1:[mc/network_relay] NewNetworkRelay 
+DEBUG[06-16|11:19:02.275] 67:[mc/network_relay] setupScsServersChannels 
+DEBUG[06-16|11:19:02.275] 1:worker.commitNewWork 
+DEBUG[06-16|11:19:02.276] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|11:19:02.276] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|11:19:02.276] 1:[core/types/New .go->MakeSigner:ChainId] 8666 
+DEBUG[06-16|11:19:02.276] 1:[params/config.go->IsPangu] PanguBlock:0 num:17 flag:true 
+DEBUG[06-16|11:19:02.277] 1:[core/state_transition.go->ApplyMessage] msgHash [111 235 13 96 40 39 13 217 114 176 244 36 142 86 69 251 111 240 66 24 15 104 192 188 94 83 158 111 232 171 70 115] 
+DEBUG[06-16|11:19:02.277] 1:[core/state_transition.go->TransitionDb in] 
+DEBUG[06-16|11:19:02.277] 1:[params/config.go->IsPangu] PanguBlock:0 num:17 flag:true 
+DEBUG[06-16|11:19:02.277] 1:[core/vm/evm.go->Call] caller=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100] addr=0x0000000000000000000000000000000000000065 code=8532 &evm.StateDB=0xc420270b00 
+DEBUG[06-16|11:19:02.277] 1:[core/vm/evm.go->run] contract addr [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101] msgHash [111 235 13 96 40 39 13 217 114 176 244 36 142 86 69 251 111 240 66 24 15 104 192 188 94 83 158 111 232 171 70 115] 
+DEBUG[06-16|11:19:02.277] 1:RunPrecompiledContract 
+DEBUG[06-16|11:19:02.277] 1:RunPrecompiledContract contract.UseGas(gas) 
+DEBUG[06-16|11:19:02.278] 1:input c1c0e9c4 
+DEBUG[06-16|11:19:02.278] 1:Call returning ret [] leftOverGas 0 err <nil> 
+DEBUG[06-16|11:19:02.279] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-16|11:19:02.279] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|11:19:02.279] 1:[consensus/ethash/consensus.go->Finalize] 
+DEBUG[06-16|11:19:02.279] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-16|11:19:02.280] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|11:19:02.280] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|11:19:02.280] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-16|11:19:02.280] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|11:19:02.280] 1:[rlp/encode.go->makeWriter] reflect.PtrTo(typ).Implements(encoderInterface) 
+DEBUG[06-16|11:19:02.281] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|11:19:02.281] 1:[rlp/encode.go->makeWriter] reflect.Slice 
+DEBUG[06-16|11:19:02.281] 60:[networkrelay/network_relay.go->NotifyScsFinalize]  
+DEBUG[06-16|11:19:02.281] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|11:19:02.281] 1:[rlp/encode.go->makeWriter] typ.Implements(encoderInterface) 
+DEBUG[06-16|11:19:02.281] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|11:19:02.282] 1:[rlp/encode.go->makeWriter] reflect.Struct 
+DEBUG[06-16|11:19:02.282] 1:[rlp/encode.go->makeWriter] reflect.Ptr 
+DEBUG[06-16|11:19:02.282] 1:[rlp/encode.go->makeWriter] reflect.Interface 
+DEBUG[06-16|11:19:02.282] 1:[rlp/encode.go->makeWriter] kind == reflect.Slice || kind == reflect.Array 
+DEBUG[06-16|11:19:02.282] 1:[rlp/encode.go->makeWriter] reflect.String 
+INFO [06-16|11:19:02.284] 1:Starting P2P networking 
+INFO [06-16|11:19:06.534] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-16|11:19:06.534] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+INFO [06-16|11:19:06.539] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-16|11:19:06.539] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-16|11:19:06.539] 1:Initializing MoacNode protocol         versions="[63 62]" network=8666
+INFO [06-16|11:19:06.540] 1:Loaded most recent local header        number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|11:19:06.540] 1:Loaded most recent local full block    number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|11:19:06.540] 1:Loaded most recent local fast block    number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|11:19:06.541] 1:Loaded local transaction journal       transactions=0 dropped=0
+INFO [06-16|11:19:06.541] 1:Regenerated local transaction journal  transactions=0 accounts=0
+WARN [06-16|11:19:06.541] Blockchain not empty, fast sync disabled 
+INFO [06-16|11:19:06.546] 1:Starting P2P networking 
+INFO [06-16|11:19:08.707] 1:UDP listener up                        self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+INFO [06-16|11:19:08.708] 83:RLPx listener up                      self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+INFO [06-16|11:19:08.712] 1:[node/node.go->Node.startIPC] 
+INFO [06-16|11:19:08.713] 111:IPC endpoint opened: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-16|11:19:08.714] 113:[rpc/inproc.go->DialInProc] 
+INFO [06-16|11:35:11.294] 111:[node/node.go->Node.startIPC call ServeCodec] 
+INFO [06-16|11:36:19.156] 2569:Transaction pool price threshold updated price=18000000000
+INFO [06-16|11:36:19.156] 2570:Starting mining operation 
+INFO [06-16|11:36:19.158] 2570:Commit new mining work              number=17 txs=1 uncles=0 elapsed=1.948ms
+INFO [06-16|11:36:22.284] Generating ethash verification cache     epoch=1 percentage=95 elapsed=3.036s
+INFO [06-16|11:36:22.437] Generated ethash verification cache      epoch=1 elapsed=3.189s
+INFO [06-16|11:36:26.889] Generating DAG in progress               epoch=1 percentage=0  elapsed=4.243s
+INFO [06-16|11:36:30.852] Generating DAG in progress               epoch=1 percentage=1  elapsed=8.206s
+INFO [06-16|11:36:33.556] Generating DAG in progress               epoch=1 percentage=2  elapsed=10.910s
+INFO [06-16|11:36:35.536] Generating DAG in progress               epoch=1 percentage=3  elapsed=12.889s
+INFO [06-16|11:36:37.535] Generating DAG in progress               epoch=1 percentage=4  elapsed=14.889s
+INFO [06-16|11:36:40.284] Generating DAG in progress               epoch=1 percentage=5  elapsed=17.637s
+INFO [06-16|11:36:42.441] Generating DAG in progress               epoch=1 percentage=6  elapsed=19.794s
+INFO [06-16|11:36:44.360] Generating DAG in progress               epoch=1 percentage=7  elapsed=21.713s
+INFO [06-16|11:36:46.092] Generating DAG in progress               epoch=1 percentage=8  elapsed=23.445s
+INFO [06-16|11:36:48.430] Generating DAG in progress               epoch=1 percentage=9  elapsed=25.783s
+INFO [06-16|11:36:50.833] Generating DAG in progress               epoch=1 percentage=10 elapsed=28.187s
+INFO [06-16|11:36:52.750] Generating DAG in progress               epoch=1 percentage=11 elapsed=30.103s
+INFO [06-16|11:36:54.614] Generating DAG in progress               epoch=1 percentage=12 elapsed=31.967s
+INFO [06-16|11:36:56.440] Generating DAG in progress               epoch=1 percentage=13 elapsed=33.793s
+INFO [06-16|11:36:58.346] Generating DAG in progress               epoch=1 percentage=14 elapsed=35.699s
+INFO [06-16|11:37:00.170] Generating DAG in progress               epoch=1 percentage=15 elapsed=37.523s
+INFO [06-16|11:37:01.824] Generating DAG in progress               epoch=1 percentage=16 elapsed=39.177s
+INFO [06-16|11:37:03.614] Generating DAG in progress               epoch=1 percentage=17 elapsed=40.967s
+INFO [06-16|11:37:05.509] Generating DAG in progress               epoch=1 percentage=18 elapsed=42.862s
+INFO [06-16|11:37:07.544] Generating DAG in progress               epoch=1 percentage=19 elapsed=44.896s
+INFO [06-16|11:37:09.779] Generating DAG in progress               epoch=1 percentage=20 elapsed=47.132s
+INFO [06-16|11:37:11.846] Generating DAG in progress               epoch=1 percentage=21 elapsed=49.199s
+INFO [06-16|11:37:13.677] Generating DAG in progress               epoch=1 percentage=22 elapsed=51.029s
+INFO [06-16|11:37:15.993] Generating DAG in progress               epoch=1 percentage=23 elapsed=53.346s
+INFO [06-16|11:37:18.305] Generating DAG in progress               epoch=1 percentage=24 elapsed=55.658s
+INFO [06-16|11:37:20.653] Generating DAG in progress               epoch=1 percentage=25 elapsed=58.005s
+INFO [06-16|11:37:23.905] Generating DAG in progress               epoch=1 percentage=26 elapsed=1m1.257s
+INFO [06-16|11:37:25.900] Generating DAG in progress               epoch=1 percentage=27 elapsed=1m3.252s
+INFO [06-16|11:37:27.740] Generating DAG in progress               epoch=1 percentage=28 elapsed=1m5.092s
+INFO [06-16|11:37:29.443] Generating DAG in progress               epoch=1 percentage=29 elapsed=1m6.795s
+INFO [06-16|11:37:30.965] 112:Got interrupt, shutting down... 
+INFO [06-16|11:37:30.974] 2732:IPC endpoint closed: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-16|11:37:30.974] 2732:Blockchain manager stopped 
+INFO [06-16|11:37:30.975] 2732:Stopping MoacNode protocol 
+INFO [06-16|11:37:30.975] 2732:MoacNode protocol stopped 
+INFO [06-16|11:37:30.975] 2732:Transaction pool stopped 
+INFO [06-16|11:37:30.975] Database closed                          database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata
+INFO [06-16|13:53:01.224] 51:[vnode/scsservices.go->VnodeServiceStart] 
+INFO [06-16|13:53:01.242] 1:Starting peer-to-peer node             instance=Moac/v0.8.3-release-c4869dc1/darwin-amd64/go1.10
+INFO [06-16|13:53:01.244] Allocated cache and file handles         database=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/chaindata cache=128 handles=1024
+INFO [06-16|13:53:01.264] 1:Disk storage enabled for ethash caches dir=/Users/hanwencheng/Documents/moac/vnode/chainData/moac/ethash count=3
+INFO [06-16|13:53:01.264] 1:Disk storage enabled for ethash DAGs   dir=/Users/hanwencheng/.ethash                                    count=2
+INFO [06-16|13:53:01.264] 1:Initializing MoacNode protocol         versions="[63 62]" network=99
+INFO [06-16|13:53:01.270] 1:Loaded most recent local header        number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|13:53:01.270] 1:Loaded most recent local full block    number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|13:53:01.270] 1:Loaded most recent local fast block    number=16 hash=0x75a6b1c5b612425d0ce8d5612cdc2ad211877d198abdfeac29e46fa630cd3f46 td=2103488
+INFO [06-16|13:53:01.272] 1:Loaded local transaction journal       transactions=0 dropped=0
+INFO [06-16|13:53:01.272] 1:Regenerated local transaction journal  transactions=0 accounts=0
+WARN [06-16|13:53:01.273] Blockchain not empty, fast sync disabled 
+INFO [06-16|13:53:01.286] 1:Starting P2P networking 
+INFO [06-16|13:53:03.446] 1:UDP listener up                        self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+INFO [06-16|13:53:03.447] 79:RLPx listener up                      self=enode://48e8b5ec98b8f33cf458dab910ec0db545e8d04bf2bc5622542803ccb03bbcaf9ef0311d0f048c474a34a526cd2516fcdd889053b1b5bb544870e88354586a6c@100.106.34.174:30333
+INFO [06-16|13:53:03.451] 1:[node/node.go->Node.startIPC] 
+INFO [06-16|13:53:03.452] 123:IPC endpoint opened: /Users/hanwencheng/Documents/moac/vnode/chainData/moac.ipc 
+INFO [06-16|13:53:03.454] 1:Start a  a new HTTP RPC serve 
+INFO [06-16|13:53:03.454] 1:HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [06-16|13:53:03.454] 126:[rpc/inproc.go->DialInProc] 
